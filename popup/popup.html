@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chat Reply Assistant</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <h1>Reply Assistant</h1>
+        <p class="subtitle">Gemini drafts from page context</p>
+      </div>
+      <button type="button" class="settings-link" id="settingsBtn" title="Settings">Settings</button>
+    </header>
+
+    <main class="stack">
+      <label class="field">
+        <span>Sender profile <em>(you)</em></span>
+        <textarea id="senderProfile" rows="2" placeholder="e.g. Victor at Chief Web — builds websites for Kenyan SMEs, friendly and direct."></textarea>
+      </label>
+
+      <label class="field">
+        <span>Recipient profile <em>(auto from page)</em></span>
+        <textarea id="recipientProfile" rows="2" placeholder="Filled when you scan the page."></textarea>
+      </label>
+
+      <label class="field">
+        <span>Chat keywords <em>(auto from page)</em></span>
+        <input id="keywords" type="text" placeholder="Filled when you scan the page." />
+      </label>
+
+      <label class="field">
+        <span>Tone</span>
+        <select id="tone">
+          <option value="professional">Professional</option>
+          <option value="friendly">Friendly</option>
+          <option value="concise">Concise</option>
+          <option value="persuasive">Persuasive</option>
+          <option value="warm">Warm</option>
+        </select>
+      </label>
+
+      <label class="field">
+        <span>Conversation history</span>
+        <textarea id="conversation" rows="6" placeholder="Filled when you scan the page. You can also paste a thread here."></textarea>
+      </label>
+
+      <div id="status" class="status" role="status" aria-live="polite" hidden></div>
+      <div id="error" class="error" role="alert" aria-live="assertive" hidden></div>
+
+      <div class="actions">
+        <button type="button" id="scanBtn" class="btn secondary">Scan page</button>
+        <button type="button" id="generateBtn" class="btn primary">Generate reply</button>
+        <button type="button" id="copyBtn" class="btn ghost" disabled>Copy response</button>
+      </div>
+
+      <label class="field">
+        <span>Suggested reply</span>
+        <textarea id="reply" rows="5" readonly placeholder="Your draft will appear here."></textarea>
+      </label>
+    </main>
+
+    <script src="popup.js" type="module"></script>
+  </body>
+</html>

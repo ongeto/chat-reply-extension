@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reply Assistant Settings</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <main class="card">
+      <h1>Reply Assistant settings</h1>
+      <p class="lead">
+        Your Gemini API key and model stay in this browser. They are sent only to Google when you generate a reply.
+      </p>
+
+      <label class="field">
+        <span>Gemini API key</span>
+        <input id="apiKey" type="password" autocomplete="off" placeholder="AIza…" />
+      </label>
+
+      <label class="field">
+        <span>Model</span>
+        <input
+          id="model"
+          type="text"
+          list="modelSuggestions"
+          placeholder="gemini-2.0-flash"
+          spellcheck="false"
+        />
+        <datalist id="modelSuggestions">
+          <option value="gemini-2.0-flash"></option>
+          <option value="gemini-2.0-flash-lite"></option>
+          <option value="gemini-2.5-flash"></option>
+          <option value="gemini-1.5-flash"></option>
+          <option value="gemini-1.5-pro"></option>
+        </datalist>
+        <small class="hint">Use the exact model id from Google AI Studio / your Gemini API access.</small>
+      </label>
+
+      <label class="field">
+        <span>Default sender profile</span>
+        <textarea id="defaultSenderProfile" rows="3" placeholder="Who you are and how you write — used as the starting sender profile."></textarea>
+      </label>
+
+      <div id="status" class="status" role="status" aria-live="polite" hidden></div>
+      <div id="error" class="error" role="alert" aria-live="assertive" hidden></div>
+
+      <button type="button" id="saveBtn" class="btn">Save settings</button>
+    </main>
+    <script src="options.js" type="module"></script>
+  </body>
+</html>
