@@ -10,9 +10,12 @@
     <header class="header">
       <div>
         <h1>Reply Assistant</h1>
-        <p class="subtitle">Gemini drafts from page context</p>
+        <p class="subtitle" id="providerSubtitle">Cloud drafts from page context</p>
       </div>
-      <button type="button" class="settings-link" id="settingsBtn" title="Settings">Settings</button>
+      <div class="header-links">
+        <button type="button" class="settings-link" id="logsBtn" title="Usage logs">Logs</button>
+        <button type="button" class="settings-link" id="settingsBtn" title="Settings">Settings</button>
+      </div>
     </header>
 
     <main class="stack">
@@ -43,6 +46,16 @@
       </label>
 
       <label class="field">
+        <span>Style mode</span>
+        <select id="styleMode">
+          <option value="default">Default</option>
+          <option value="playful">Playful</option>
+          <option value="flirty">Flirty</option>
+          <option value="casual_adult">Casual adult / game chat</option>
+        </select>
+      </label>
+
+      <label class="field">
         <span>Conversation history</span>
         <textarea id="conversation" rows="6" placeholder="Filled when you scan the page. You can also paste a thread here."></textarea>
       </label>
@@ -60,6 +73,12 @@
         <span>Suggested reply</span>
         <textarea id="reply" rows="5" readonly placeholder="Your draft will appear here."></textarea>
       </label>
+
+      <div class="rate-row">
+        <span class="rate-label">Rate this reply</span>
+        <button type="button" id="rateGoodBtn" class="btn ghost compact" disabled>Good</button>
+        <button type="button" id="rateBadBtn" class="btn ghost compact" disabled>Bad</button>
+      </div>
     </main>
 
     <script src="popup.js" type="module"></script>

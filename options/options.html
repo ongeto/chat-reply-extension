@@ -10,13 +10,30 @@
     <main class="card">
       <h1>Reply Assistant settings</h1>
       <p class="lead">
-        Your Gemini API key and model stay in this browser. They are sent only to Google when you generate a reply.
+        Switch between <strong>Gemini</strong> and <strong>OpenAI</strong>. Keys stay in this browser and are only sent to the selected provider when you generate.
       </p>
 
       <label class="field">
-        <span>Gemini API key</span>
-        <input id="apiKey" type="password" autocomplete="off" placeholder="AIza…" />
+        <span>Provider</span>
+        <select id="provider">
+          <option value="gemini">Google Gemini</option>
+          <option value="openai">OpenAI</option>
+        </select>
       </label>
+
+      <div id="geminiFields" class="provider-block">
+        <label class="field">
+          <span>Gemini API key</span>
+          <input id="geminiApiKey" type="password" autocomplete="off" placeholder="AIza…" />
+        </label>
+      </div>
+
+      <div id="openaiFields" class="provider-block" hidden>
+        <label class="field">
+          <span>OpenAI API key</span>
+          <input id="openaiApiKey" type="password" autocomplete="off" placeholder="sk-…" />
+        </label>
+      </div>
 
       <label class="field">
         <span>Model</span>
@@ -24,17 +41,11 @@
           id="model"
           type="text"
           list="modelSuggestions"
-          placeholder="gemini-2.0-flash"
+          placeholder="gemini-3-flash-preview"
           spellcheck="false"
         />
-        <datalist id="modelSuggestions">
-          <option value="gemini-2.0-flash"></option>
-          <option value="gemini-2.0-flash-lite"></option>
-          <option value="gemini-2.5-flash"></option>
-          <option value="gemini-1.5-flash"></option>
-          <option value="gemini-1.5-pro"></option>
-        </datalist>
-        <small class="hint">Use the exact model id from Google AI Studio / your Gemini API access.</small>
+        <datalist id="modelSuggestions"></datalist>
+        <small id="modelHint" class="hint">Pick from the list or paste an exact model id.</small>
       </label>
 
       <label class="field">
@@ -45,7 +56,15 @@
       <div id="status" class="status" role="status" aria-live="polite" hidden></div>
       <div id="error" class="error" role="alert" aria-live="assertive" hidden></div>
 
-      <button type="button" id="saveBtn" class="btn">Save settings</button>
+      <p class="lead">
+        <a href="../logs/logs.html">Open usage logs</a>
+        to review scanned inputs, generated replies, failures, and good/bad ratings.
+      </p>
+
+      <div class="btn-row">
+        <button type="button" id="testBtn" class="btn secondary">Test connection</button>
+        <button type="button" id="saveBtn" class="btn">Save settings</button>
+      </div>
     </main>
     <script src="options.js" type="module"></script>
   </body>

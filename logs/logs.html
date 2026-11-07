@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reply Assistant Logs</title>
+    <link rel="stylesheet" href="logs.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <header class="top">
+        <div>
+          <h1>Usage logs</h1>
+          <p class="lead">
+            Every scan and generated reply is stored locally in this browser. Rate outputs so you can improve prompts later.
+          </p>
+        </div>
+        <div class="top-actions">
+          <button type="button" id="refreshBtn" class="btn ghost">Refresh</button>
+          <button type="button" id="exportBtn" class="btn secondary">Export JSON</button>
+          <button type="button" id="clearBtn" class="btn danger">Clear logs</button>
+        </div>
+      </header>
+
+      <div id="summary" class="summary" role="status"></div>
+      <div id="list" class="list"></div>
+    </main>
+    <script src="logs.js" type="module"></script>
+  </body>
+</html>

@@ -50,6 +50,11 @@ h1 {
   font-size: 12px;
 }
 
+.header-links {
+  display: flex;
+  gap: 4px;
+}
+
 .settings-link {
   color: var(--muted);
   text-decoration: none;
@@ -65,6 +70,27 @@ h1 {
 .settings-link:hover {
   color: var(--text);
   background: var(--surface);
+}
+
+.rate-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rate-label {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-right: auto;
+}
+
+.btn.compact {
+  min-height: 32px;
+  padding: 0 10px;
+  font-size: 12px;
 }
 
 .stack {

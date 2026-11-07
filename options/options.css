@@ -90,8 +90,18 @@ select:focus {
   line-height: 1.4;
 }
 
-.btn {
+a {
+  color: #7ddec0;
+}
+
+.btn-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
   margin-top: 4px;
+}
+
+.btn {
   min-height: 44px;
   border: none;
   border-radius: 10px;
@@ -102,8 +112,25 @@ select:focus {
   cursor: pointer;
 }
 
+.btn.secondary {
+  background: #243041;
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
 .btn:hover {
   filter: brightness(1.05);
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.provider-block {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 
 .status,
