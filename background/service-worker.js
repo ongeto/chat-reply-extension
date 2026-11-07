@@ -3,13 +3,7 @@ import {
   classifyFailure,
   looksLikeModelRefusal,
 } from "../shared/failure.js";
-
-const DEFAULTS = {
-  provider: "gemini",
-  model: "gemini-3-flash-preview",
-  geminiApiKey: "",
-  openaiApiKey: "",
-};
+import { loadSettings } from "../shared/settings.js";
 
 chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
   if (message?.type === "GENERATE_REPLY") {
@@ -66,25 +60,7 @@ chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
 });
 
 async function getConfig() {
-  const cfg = await chrome.storage.sync.get({
-    provider: DEFAULTS.provider,
-    model: DEFAULTS.model,
-    apiKey: "",
-    geminiApiKey: DEFAULTS.geminiApiKey,
-    openaiApiKey: DEFAULTS.openaiApiKey,
-  });
-
-  const provider = cfg.provider === "openai" ? "openai" : "gemini";
-  const geminiApiKey = (cfg.geminiApiKey || cfg.apiKey || "").trim();
-  const openaiApiKey = (cfg.openaiApiKey || "").trim();
-
-  return {
-    provider,
-    model: (cfg.model || DEFAULTS.model).trim(),
-    geminiApiKey,
-    openaiApiKey,
-    apiKey: provider === "openai" ? openaiApiKey : geminiApiKey,
-  };
+  return loadSettings();
 }
 
 function styleInstructions(styleMode) {
@@ -111,7 +87,7 @@ function buildPrompts(payload) {
     recipientProfile = "",
     keywords = "",
     conversation = "",
-    tone = "professional",
+    tone = "casual",
     styleMode = "default",
   } = payload || {};
 

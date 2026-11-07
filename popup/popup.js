@@ -38,7 +38,7 @@ async function init() {
     defaultSenderProfile: "",
     recipientProfile: "",
     keywords: "",
-    tone: "professional",
+    tone: "casual",
     styleMode: "default",
     conversation: "",
     lastReply: "",
@@ -47,6 +47,10 @@ async function init() {
 
   for (const key of DRAFT_KEYS) {
     if (els[key]) els[key].value = saved[key] || "";
+  }
+  // Migrate old default tone.
+  if (els.tone.value === "professional") {
+    els.tone.value = "casual";
   }
   if (!els.senderProfile.value.trim() && saved.defaultSenderProfile) {
     els.senderProfile.value = saved.defaultSenderProfile;

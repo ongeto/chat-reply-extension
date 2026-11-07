@@ -1,3 +1,5 @@
+import { DEFAULTS, loadSettings, saveSettings } from "../shared/settings.js";
+
 const GEMINI_MODELS = [
   "gemini-3.8-flash",
   "gemini-3.5-flash-lite",
@@ -19,13 +21,6 @@ const OPENAI_MODELS = [
   "o4-mini",
 ];
 
-const DEFAULTS = {
-  provider: "gemini",
-  model: "gemini-3-flash-preview",
-  geminiApiKey: "",
-  openaiApiKey: "",
-};
-
 const els = {
   provider: document.getElementById("provider"),
   geminiApiKey: document.getElementById("geminiApiKey"),
@@ -45,26 +40,16 @@ const els = {
 init();
 
 async function init() {
-  const sync = await chrome.storage.sync.get({
-    provider: DEFAULTS.provider,
-    model: DEFAULTS.model,
-    apiKey: "",
-    geminiApiKey: DEFAULTS.geminiApiKey,
-    openaiApiKey: DEFAULTS.openaiApiKey,
-  });
+  const settings = await loadSettings();
   const local = await chrome.storage.local.get({
     senderProfile: "",
     defaultSenderProfile: "",
   });
 
-  const provider = sync.provider === "openai" ? "openai" : "gemini";
-  // Migrate older single apiKey field into geminiApiKey.
-  const geminiApiKey = sync.geminiApiKey || sync.apiKey || "";
-
-  els.provider.value = provider;
-  els.geminiApiKey.value = geminiApiKey;
-  els.openaiApiKey.value = sync.openaiApiKey || "";
-  els.model.value = sync.model || DEFAULTS.model;
+  els.provider.value = settings.provider || DEFAULTS.provider;
+  els.geminiApiKey.value = settings.geminiApiKey || "";
+  els.openaiApiKey.value = settings.openaiApiKey || "";
+  els.model.value = settings.model || DEFAULTS.model;
   els.defaultSenderProfile.value =
     local.defaultSenderProfile || local.senderProfile || "";
 
@@ -134,24 +119,28 @@ async function persistSettings() {
     throw new Error("Paste an OpenAI API key, or switch provider to Gemini.");
   }
 
-  await chrome.storage.sync.set({
+  // Preserve the other provider's key from storage if that field was empty in the UI
+  // (e.g. user only filled the active provider).
+  const existing = await loadSettings();
+  const saved = await saveSettings({
     provider,
     model,
-    geminiApiKey,
-    openaiApiKey,
-    // Keep legacy key mirrored for older installs.
-    apiKey: geminiApiKey,
-    ollamaBaseUrl: "",
+    geminiApiKey: geminiApiKey || existing.geminiApiKey,
+    openaiApiKey: openaiApiKey || existing.openaiApiKey,
   });
 
+  // Reflect preserved keys back into the form so reload doesn't look blank.
+  els.geminiApiKey.value = saved.geminiApiKey;
+  els.openaiApiKey.value = saved.openaiApiKey;
+
   const localPatch = { defaultSenderProfile };
-  const existing = await chrome.storage.local.get({ senderProfile: "" });
-  if (!existing.senderProfile?.trim()) {
+  const existingLocal = await chrome.storage.local.get({ senderProfile: "" });
+  if (!existingLocal.senderProfile?.trim()) {
     localPatch.senderProfile = defaultSenderProfile;
   }
   await chrome.storage.local.set(localPatch);
 
-  return { provider, model, geminiApiKey, openaiApiKey };
+  return saved;
 }
 
 async function onSave() {
@@ -161,7 +150,7 @@ async function onSave() {
 
   try {
     await persistSettings();
-    setStatus("Settings saved.");
+    setStatus("Settings saved on this browser.");
   } catch (error) {
     setError(error?.message || "Could not save settings.");
   } finally {

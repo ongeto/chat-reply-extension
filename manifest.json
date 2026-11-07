@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "CWS Chat Reply Assistant",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Generate message replies with Gemini or OpenAI from conversation history, profiles, and keywords. Logs scans and outputs for quality improvement.",
   "permissions": ["storage", "activeTab", "scripting", "tabs"],
   "host_permissions": [
