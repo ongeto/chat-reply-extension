@@ -167,18 +167,25 @@ async function onScan() {
     const {
       conversation = "",
       recipientProfile = "",
+      senderProfile = "",
       keywords = "",
       source = "page",
     } = response.context || {};
 
-    if (!conversation.trim() && !recipientProfile.trim()) {
+    if (!conversation.trim() && !recipientProfile.trim() && !senderProfile.trim()) {
       throw new Error("Nothing useful found. Open a chat or select messages, then scan again.");
     }
 
     if (conversation.trim()) {
       els.conversation.value = conversation.trim();
     }
-    els.recipientProfile.value = recipientProfile.trim();
+    if (recipientProfile.trim()) {
+      els.recipientProfile.value = recipientProfile.trim();
+    }
+    // ChatTool fills Moderator → sender. Keep manual sender if scan found nothing.
+    if (senderProfile.trim()) {
+      els.senderProfile.value = senderProfile.trim();
+    }
     els.keywords.value = keywords.trim();
 
     await persistDraft();
@@ -194,6 +201,7 @@ async function onScan() {
     });
 
     const bits = [];
+    if (senderProfile.trim()) bits.push("sender");
     if (recipientProfile.trim()) bits.push("recipient");
     if (keywords.trim()) bits.push("keywords");
     if (conversation.trim()) bits.push("conversation");

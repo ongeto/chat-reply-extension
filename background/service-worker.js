@@ -98,33 +98,62 @@ function buildPrompts(payload) {
     );
   }
 
-  const systemPrompt = [
-    "You draft the next chat message for an ongoing conversation (messaging apps, dating chats, games, or business threads).",
-    "Write as the sender, matching their voice from the sender profile.",
-    "Read the latest messages carefully and answer what was actually asked or left open.",
-    "Sound human: concrete and brief unless the thread needs more.",
-    "Do not invent facts that are not in the profiles or conversation.",
-    "Do not use markdown, bullet lists, labels like 'Reply:', or quotation marks around the whole message.",
-    styleInstructions(styleMode),
-  ].join(" ");
+  const isChatToolThread =
+    /\bCustomer:\s/i.test(conversation) ||
+    /\bModerator:\s/i.test(conversation) ||
+    /Moderator \(you\)/i.test(senderProfile) ||
+    /^Customer\b/m.test(recipientProfile);
+
+  const systemPrompt = isChatToolThread
+    ? [
+        "You are drafting the next chat message inside a moderation ChatTool session.",
+        "You write ONLY as the Moderator (the sender / persona). Never write as the Customer.",
+        "The Customer is the other party. Reply to their latest message.",
+        "If a line is labeled Customer:, that is incoming. If labeled Moderator:, that is already sent by you or another agent.",
+        "Use Other Informations and Description from both profiles when they add relevant context.",
+        "Match the Moderator's voice from the sender profile and prior Moderator lines.",
+        "Read the latest Customer message carefully and answer what was asked or left open.",
+        "Sound human: concrete and brief unless the thread needs more.",
+        "Do not invent facts that are not in the profiles or conversation.",
+        "Do not use markdown, bullet lists, labels like 'Reply:', or quotation marks around the whole message.",
+        "Do not mention that you are an AI, a moderator tool, or an agent.",
+        styleInstructions(styleMode),
+      ].join(" ")
+    : [
+        "You draft the next chat message for an ongoing conversation (messaging apps, dating chats, games, or business threads).",
+        "Write as the sender, matching their voice from the sender profile.",
+        "Read the latest messages carefully and answer what was actually asked or left open.",
+        "Sound human: concrete and brief unless the thread needs more.",
+        "Do not invent facts that are not in the profiles or conversation.",
+        "Do not use markdown, bullet lists, labels like 'Reply:', or quotation marks around the whole message.",
+        styleInstructions(styleMode),
+      ].join(" ");
 
   const userPrompt = [
     `Tone preference: ${tone}`,
     `Style mode: ${styleMode}`,
     "",
-    "Sender profile (who is writing the reply):",
+    isChatToolThread
+      ? "Moderator / sender profile (who is writing — write AS this person):"
+      : "Sender profile (who is writing the reply):",
     senderProfile.trim() || "(not provided)",
     "",
-    "Recipient profile (who will receive the reply):",
+    isChatToolThread
+      ? "Customer / recipient profile (who will receive the reply — write TO this person):"
+      : "Recipient profile (who will receive the reply):",
     recipientProfile.trim() || "(not provided)",
     "",
     "Chat keywords / themes to lean on if relevant:",
     keywords.trim() || "(none)",
     "",
-    "Conversation history (oldest to newest). Focus on the latest recipient message:",
+    isChatToolThread
+      ? "Conversation history (oldest to newest). Lines start with Customer: or Moderator:. Focus on the latest Customer message and write the next Moderator message:"
+      : "Conversation history (oldest to newest). Focus on the latest recipient message:",
     conversation.trim(),
     "",
-    "Write only the next message from the sender, ready to paste.",
+    isChatToolThread
+      ? "Write only the next Moderator message to the Customer, ready to paste into Send a message."
+      : "Write only the next message from the sender, ready to paste.",
   ].join("\n");
 
   return { systemPrompt, userPrompt };

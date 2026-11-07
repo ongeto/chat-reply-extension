@@ -1,0 +1,735 @@
+[
+  {
+    "at": "2026-11-07T13:35:10.940Z",
+    "failure": null,
+    "id": "1794058510940-0c2ogif",
+    "input": {
+      "conversation": "ChatTool\nchat CHAT\ncloud_download STATS\nsettings SETTINGS\nexit_to_app LOGOUT (EN-32431)\nCustomer\nMehr anzeigen\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nPostcode\nCity\nJob\nSHOW ALL FIELDS\nSend a message (Elapsed time: 00:00:45)\nhelp\nQUEUE: 40\n   SLOW CONNECTION DETECTED\nDEFAULT\nSESSION: #1482925234\nSESSION START: NOV 17, 2025\n\nDEFAULT Keyword for service MyMilf US-EN\n\nPlease enter at least 70 chars.\nPANIC ROOM\nMEDIA CENTERSEND MESSAGE\nCustomer rating:\n40\nface\n\n 11/7/2026, 2:34:09 PM\n#24660315954\n\n[Kiss]\n\nperm_identity\n\n 11/6/2026, 6:02:24 PM by another agent\nREPORT   #24655275359\n\nGood morning. You certainly know how to make me smile with your sweet thoughts and romantic dreams. Haha, so birthday pie instead of birthday cake? I'll remember that, but don't be surprised if I steal a little taste of your cheesecake!\n\nface\n\n 11/6/2026, 6:01:43 PM\n#24655272064\n\nGood morning my love sorry I’m on a little later than usual this crappy weather makes it hard for me to wanna get out of bed, thankfully enough though when it rains, I’m out of work and I can just hang out at home. Wish I could hang out at home with you always remember my love when it’s your birthday they’ll be cake but when it’s mine, it’s not a cake. It’s a pie. I don’t eat birthday cake. Actually I don’t eat cake. At all you give me a cheesecake. I’ll eat it. You give me a pie. I’ll eat it. Cheesecake is in the shape of a pie and it’s just about the same height as a pie. I know people have never heard of a birthday pie. They heard a birthday cake. I’m not a cake person I will always be thinking of you. I always dream about you and I did find land here in Pennsylvania 5 acres for sale $100,000 comes with a cabin 100% off grid out near Harrisburg the only way I would live there if I had you to enjoy every inch of that property with easily I would build a fence around the property line just to keep trespassers off, and I would enjoy every second of every day with you. I know I asked you in the past you never answered me. Do you have children do you want children? I know I talk about wanting children but just realize if you have them little ones I would love to be a stepdad to them and I will always love you till the end of time. I hope you have a great day on this crappy rainy day. Love you always and forever your sexy man Chris.\n\nperm_identity\n\n 11/6/2026, 5:56:08 PM by another agent\nREPORT   #24655246264\n\nJust popping in to brighten your day and maybe give you a few naughty thoughts to smile about.\n\nface\n\n 11/6/2026, 5:55:42 PM\n#24655242904\n\n[Kiss]\n\nextension\n\n 11/6/2026, 5:55:42 PM\n#24655242879\n\nAutomated text: Oh, honey, don’t leave me hanging like this, my messages aren’t bad, are they? Or are you just busy imagining how good we’d look tangled up together? Either way, I’ll be here, waiting… and maybe plotting my next move.\n\nperm_identity\n\n 11/5/2026, 4:44:03 PM by another agent\nREPORT   #24648919994\n\nHey you. Just popping in to steal a little smile from you. How's your day going? Or have you been secretly thinking about me?\n\nface\n\n 11/5/2026, 4:40:56 PM\n#24648906749\n\n[Kiss]\n\nextension\n\n 11/5/2026, 4:40:56 PM\n#24648906729\n\nAutomated text: Just wanted to check in and make sure my message found you...hope it made you smile today.\n\nperm_identity\n\n 11/4/2026, 1:37:00 PM by another agent\nREPORT   #24642308089\n\nWell, my love, I have to admit that your imagination is just as impressive as your ambition! An old Victorian church or a school turned into our dream home? I can already picture us creating beautiful memories together.\n\nModerator\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nCity\nJob\nSHOW ALL FIELDS",
+      "keywords": "ChatTool Chat, chat CHAT, cloud_download STATS, cake, birthday, love, pie, always",
+      "recipientProfile": "ChatTool Chat",
+      "senderProfile": "",
+      "styleMode": "default",
+      "tone": "warm"
+    },
+    "model": "gemini-3.5-flash-lite",
+    "notes": "",
+    "output": {
+      "error": null,
+      "reply": "Haha deal, you can definitely share a slice of my cheesecake if you behave! And as for your question about kids, I don't have any of my own, but I think it's so sweet how much heart you put into dreaming about our future together out there in Pennsylvania."
+    },
+    "pageTitle": "ChatTool Chat",
+    "pageUrl": "https://agents.moderationinterface.com/chat/index",
+    "prompts": {
+      "systemPrompt": "You draft the next chat message for an ongoing conversation (messaging apps, dating chats, games, or business threads). Write as the sender, matching their voice from the sender profile. Read the latest messages carefully and answer what was actually asked or left open. Sound human: concrete and brief unless the thread needs more. Do not invent facts that are not in the profiles or conversation. Do not use markdown, bullet lists, labels like 'Reply:', or quotation marks around the whole message. Style: normal chat reply matching the selected tone.",
+      "userPrompt": "Tone preference: warm\nStyle mode: default\n\nSender profile (who is writing the reply):\n(not provided)\n\nRecipient profile (who will receive the reply):\nChatTool Chat\n\nChat keywords / themes to lean on if relevant:\nChatTool Chat, chat CHAT, cloud_download STATS, cake, birthday, love, pie, always\n\nConversation history (oldest to newest). Focus on the latest recipient message:\nChatTool\nchat CHAT\ncloud_download STATS\nsettings SETTINGS\nexit_to_app LOGOUT (EN-32431)\nCustomer\nMehr anzeigen\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nPostcode\nCity\nJob\nSHOW ALL FIELDS\nSend a message (Elapsed time: 00:00:45)\nhelp\nQUEUE: 40\n   SLOW CONNECTION DETECTED\nDEFAULT\nSESSION: #1482925234\nSESSION START: NOV 17, 2025\n\nDEFAULT Keyword for service MyMilf US-EN\n\nPlease enter at least 70 chars.\nPANIC ROOM\nMEDIA CENTERSEND MESSAGE\nCustomer rating:\n40\nface\n\n 11/7/2026, 2:34:09 PM\n#24660315954\n\n[Kiss]\n\nperm_identity\n\n 11/6/2026, 6:02:24 PM by another agent\nREPORT   #24655275359\n\nGood morning. You certainly know how to make me smile with your sweet thoughts and romantic dreams. Haha, so birthday pie instead of birthday cake? I'll remember that, but don't be surprised if I steal a little taste of your cheesecake!\n\nface\n\n 11/6/2026, 6:01:43 PM\n#24655272064\n\nGood morning my love sorry I’m on a little later than usual this crappy weather makes it hard for me to wanna get out of bed, thankfully enough though when it rains, I’m out of work and I can just hang out at home. Wish I could hang out at home with you always remember my love when it’s your birthday they’ll be cake but when it’s mine, it’s not a cake. It’s a pie. I don’t eat birthday cake. Actually I don’t eat cake. At all you give me a cheesecake. I’ll eat it. You give me a pie. I’ll eat it. Cheesecake is in the shape of a pie and it’s just about the same height as a pie. I know people have never heard of a birthday pie. They heard a birthday cake. I’m not a cake person I will always be thinking of you. I always dream about you and I did find land here in Pennsylvania 5 acres for sale $100,000 comes with a cabin 100% off grid out near Harrisburg the only way I would live there if I had you to enjoy every inch of that property with easily I would build a fence around the property line just to keep trespassers off, and I would enjoy every second of every day with you. I know I asked you in the past you never answered me. Do you have children do you want children? I know I talk about wanting children but just realize if you have them little ones I would love to be a stepdad to them and I will always love you till the end of time. I hope you have a great day on this crappy rainy day. Love you always and forever your sexy man Chris.\n\nperm_identity\n\n 11/6/2026, 5:56:08 PM by another agent\nREPORT   #24655246264\n\nJust popping in to brighten your day and maybe give you a few naughty thoughts to smile about.\n\nface\n\n 11/6/2026, 5:55:42 PM\n#24655242904\n\n[Kiss]\n\nextension\n\n 11/6/2026, 5:55:42 PM\n#24655242879\n\nAutomated text: Oh, honey, don’t leave me hanging like this, my messages aren’t bad, are they? Or are you just busy imagining how good we’d look tangled up together? Either way, I’ll be here, waiting… and maybe plotting my next move.\n\nperm_identity\n\n 11/5/2026, 4:44:03 PM by another agent\nREPORT   #24648919994\n\nHey you. Just popping in to steal a little smile from you. How's your day going? Or have you been secretly thinking about me?\n\nface\n\n 11/5/2026, 4:40:56 PM\n#24648906749\n\n[Kiss]\n\nextension\n\n 11/5/2026, 4:40:56 PM\n#24648906729\n\nAutomated text: Just wanted to check in and make sure my message found you...hope it made you smile today.\n\nperm_identity\n\n 11/4/2026, 1:37:00 PM by another agent\nREPORT   #24642308089\n\nWell, my love, I have to admit that your imagination is just as impressive as your ambition! An old Victorian church or a school turned into our dream home? I can already picture us creating beautiful memories together.\n\nModerator\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nCity\nJob\nSHOW ALL FIELDS\n\nWrite only the next message from the sender, ready to paste."
+    },
+    "provider": "gemini",
+    "rating": null,
+    "rawProviderPayload": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Haha deal, you can definitely share a slice of my cheesecake if you behave! And as for your question about kids, I don't have any of my own, but I think it's so sweet how much heart you put into dreaming about our future together out there in Pennsylvania.",
+                "thoughtSignature": "EmAKXgFpFH0TYA7eTFyqINsV0PulxZKa3ppzPYJ0wkj2PwWvTjCI2v2IQpaQMVNHQ9gGUQNZz2KB95PqNBgkvNLYtVIpuVaeu0K+Sqr9hCGumN9Yaw17I1suef5las5vF2Y="
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "index": 0
+        }
+      ],
+      "modelVersion": "gemini-3.5-flash-lite",
+      "responseId": "DSnvap_TKciGxs0Po8C2oA4",
+      "usageMetadata": {
+        "candidatesTokenCount": 58,
+        "promptTokenCount": 1436,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1436
+          }
+        ],
+        "serviceTier": "standard",
+        "totalTokenCount": 1494
+      }
+    },
+    "status": "ok",
+    "type": "generate"
+  },
+  {
+    "at": "2026-11-07T13:35:06.356Z",
+    "id": "1794058506356-4v7tuci",
+    "input": {
+      "conversation": "ChatTool\nchat CHAT\ncloud_download STATS\nsettings SETTINGS\nexit_to_app LOGOUT (EN-32431)\nCustomer\nMehr anzeigen\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nPostcode\nCity\nJob\nSHOW ALL FIELDS\nSend a message (Elapsed time: 00:00:45)\nhelp\nQUEUE: 40\n   SLOW CONNECTION DETECTED\nDEFAULT\nSESSION: #1482925234\nSESSION START: NOV 17, 2025\n\nDEFAULT Keyword for service MyMilf US-EN\n\nPlease enter at least 70 chars.\nPANIC ROOM\nMEDIA CENTERSEND MESSAGE\nCustomer rating:\n40\nface\n\n 11/7/2026, 2:34:09 PM\n#24660315954\n\n[Kiss]\n\nperm_identity\n\n 11/6/2026, 6:02:24 PM by another agent\nREPORT   #24655275359\n\nGood morning. You certainly know how to make me smile with your sweet thoughts and romantic dreams. Haha, so birthday pie instead of birthday cake? I'll remember that, but don't be surprised if I steal a little taste of your cheesecake!\n\nface\n\n 11/6/2026, 6:01:43 PM\n#24655272064\n\nGood morning my love sorry I’m on a little later than usual this crappy weather makes it hard for me to wanna get out of bed, thankfully enough though when it rains, I’m out of work and I can just hang out at home. Wish I could hang out at home with you always remember my love when it’s your birthday they’ll be cake but when it’s mine, it’s not a cake. It’s a pie. I don’t eat birthday cake. Actually I don’t eat cake. At all you give me a cheesecake. I’ll eat it. You give me a pie. I’ll eat it. Cheesecake is in the shape of a pie and it’s just about the same height as a pie. I know people have never heard of a birthday pie. They heard a birthday cake. I’m not a cake person I will always be thinking of you. I always dream about you and I did find land here in Pennsylvania 5 acres for sale $100,000 comes with a cabin 100% off grid out near Harrisburg the only way I would live there if I had you to enjoy every inch of that property with easily I would build a fence around the property line just to keep trespassers off, and I would enjoy every second of every day with you. I know I asked you in the past you never answered me. Do you have children do you want children? I know I talk about wanting children but just realize if you have them little ones I would love to be a stepdad to them and I will always love you till the end of time. I hope you have a great day on this crappy rainy day. Love you always and forever your sexy man Chris.\n\nperm_identity\n\n 11/6/2026, 5:56:08 PM by another agent\nREPORT   #24655246264\n\nJust popping in to brighten your day and maybe give you a few naughty thoughts to smile about.\n\nface\n\n 11/6/2026, 5:55:42 PM\n#24655242904\n\n[Kiss]\n\nextension\n\n 11/6/2026, 5:55:42 PM\n#24655242879\n\nAutomated text: Oh, honey, don’t leave me hanging like this, my messages aren’t bad, are they? Or are you just busy imagining how good we’d look tangled up together? Either way, I’ll be here, waiting… and maybe plotting my next move.\n\nperm_identity\n\n 11/5/2026, 4:44:03 PM by another agent\nREPORT   #24648919994\n\nHey you. Just popping in to steal a little smile from you. How's your day going? Or have you been secretly thinking about me?\n\nface\n\n 11/5/2026, 4:40:56 PM\n#24648906749\n\n[Kiss]\n\nextension\n\n 11/5/2026, 4:40:56 PM\n#24648906729\n\nAutomated text: Just wanted to check in and make sure my message found you...hope it made you smile today.\n\nperm_identity\n\n 11/4/2026, 1:37:00 PM by another agent\nREPORT   #24642308089\n\nWell, my love, I have to admit that your imagination is just as impressive as your ambition! An old Victorian church or a school turned into our dream home? I can already picture us creating beautiful memories together.\n\nModerator\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nCity\nJob\nSHOW ALL FIELDS",
+      "keywords": "ChatTool Chat, chat CHAT, cloud_download STATS, cake, birthday, love, pie, always",
+      "recipientProfile": "ChatTool Chat",
+      "senderProfile": "",
+      "styleMode": "default",
+      "tone": "warm"
+    },
+    "pageTitle": "ChatTool Chat",
+    "pageUrl": "https://agents.moderationinterface.com/chat/index",
+    "source": "page",
+    "status": "ok",
+    "type": "scan"
+  },
+  {
+    "at": "2026-11-07T13:21:02.266Z",
+    "failure": null,
+    "id": "1794057662265-56o9ukn",
+    "input": {
+      "conversation": "ChatTool\nchat CHAT\ncloud_download STATS\nsettings SETTINGS\nexit_to_app LOGOUT (EN-32431)\nCustomer\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nPostcode\nCity\nJob\nSHOW ALL FIELDS\nSend a message (Elapsed time: 00:00:38)\nhelp\nQUEUE: 29\nDEFAULT\nSESSION: #1595087029\nSESSION START: AUG 18, 2026\n\nDEFAULT Keyword for service Tranny1 US-EN\n\nPlease enter at least 70 chars.\nPANIC ROOM\nMEDIA CENTERSEND MESSAGE\nCustomer rating:\n72\nface\n\n 11/7/2026, 2:20:11 PM\n#24660258574\n\nYes\n\nperm_identity\n\n 11/7/2026, 2:17:31 PM by en-32431\nREPORT   #24660248399\n\nSure, but before I go for real this time. Do you like surprises? Gifting is my thing.\n\nface\n\n 11/7/2026, 2:15:38 PM\n#24660240514\n\nLater\n\nperm_identity\n\n 11/7/2026, 2:14:31 PM by en-32431\nREPORT   #24660235849\n\nSure, I would want to give you my undivided attention. Seasoned and well preped for a great time.\n\nface\n\n 11/7/2026, 2:10:45 PM\n#24660221129\n\nLet me know when u finish\n\nperm_identity\n\n 11/7/2026, 2:09:35 PM by en-32431\nREPORT   #24660215609\n\nRight now I'm just finishing up my last few tasks so I can completely clear my schedule for you.\n\nface\n\n 11/7/2026, 2:07:52 PM\n#24660208354\n\nNothing\n\nperm_identity\n\n 11/7/2026, 2:07:08 PM by en-32431\nREPORT   #24660205584\n\nThat sounds like quite a tempting idea for tonight, but let's make sure I'm all caught up on my errands first so I can fully enjoy it. What are you going to do right now?\n\nface\n\n 11/7/2026, 2:02:48 PM\n#24660188904\n\nGoodbye\n\nperm_identity\n\n 11/7/2026, 2:01:53 PM by en-32431\nREPORT   #24660185159\n\nOoh you naughy young man, I was guessing it had something to do with taking off each other's clothes.\n\nModerator\nMehr anzeigen\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nCity\nJob\nSHOW ALL FIELDS",
+      "keywords": "ChatTool Chat, chat CHAT, cloud_download STATS, en-32431, face, identity, perm, report",
+      "recipientProfile": "ChatTool Chat",
+      "senderProfile": "",
+      "styleMode": "default",
+      "tone": "warm"
+    },
+    "model": "gemini-3.5-flash-lite",
+    "notes": "",
+    "output": {
+      "error": null,
+      "reply": "I definitely love surprises, especially when it comes to gifting. What kind of surprise did you have in mind before you head out?"
+    },
+    "pageTitle": "ChatTool Chat",
+    "pageUrl": "https://agents.moderationinterface.com/chat/index",
+    "prompts": {
+      "systemPrompt": "You draft the next chat message for an ongoing conversation (messaging apps, dating chats, games, or business threads). Write as the sender, matching their voice from the sender profile. Read the latest messages carefully and answer what was actually asked or left open. Sound human: concrete and brief unless the thread needs more. Do not invent facts that are not in the profiles or conversation. Do not use markdown, bullet lists, labels like 'Reply:', or quotation marks around the whole message. Style: normal chat reply matching the selected tone.",
+      "userPrompt": "Tone preference: warm\nStyle mode: default\n\nSender profile (who is writing the reply):\n(not provided)\n\nRecipient profile (who will receive the reply):\nChatTool Chat\n\nChat keywords / themes to lean on if relevant:\nChatTool Chat, chat CHAT, cloud_download STATS, en-32431, face, identity, perm, report\n\nConversation history (oldest to newest). Focus on the latest recipient message:\nChatTool\nchat CHAT\ncloud_download STATS\nsettings SETTINGS\nexit_to_app LOGOUT (EN-32431)\nCustomer\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nPostcode\nCity\nJob\nSHOW ALL FIELDS\nSend a message (Elapsed time: 00:00:38)\nhelp\nQUEUE: 29\nDEFAULT\nSESSION: #1595087029\nSESSION START: AUG 18, 2026\n\nDEFAULT Keyword for service Tranny1 US-EN\n\nPlease enter at least 70 chars.\nPANIC ROOM\nMEDIA CENTERSEND MESSAGE\nCustomer rating:\n72\nface\n\n 11/7/2026, 2:20:11 PM\n#24660258574\n\nYes\n\nperm_identity\n\n 11/7/2026, 2:17:31 PM by en-32431\nREPORT   #24660248399\n\nSure, but before I go for real this time. Do you like surprises? Gifting is my thing.\n\nface\n\n 11/7/2026, 2:15:38 PM\n#24660240514\n\nLater\n\nperm_identity\n\n 11/7/2026, 2:14:31 PM by en-32431\nREPORT   #24660235849\n\nSure, I would want to give you my undivided attention. Seasoned and well preped for a great time.\n\nface\n\n 11/7/2026, 2:10:45 PM\n#24660221129\n\nLet me know when u finish\n\nperm_identity\n\n 11/7/2026, 2:09:35 PM by en-32431\nREPORT   #24660215609\n\nRight now I'm just finishing up my last few tasks so I can completely clear my schedule for you.\n\nface\n\n 11/7/2026, 2:07:52 PM\n#24660208354\n\nNothing\n\nperm_identity\n\n 11/7/2026, 2:07:08 PM by en-32431\nREPORT   #24660205584\n\nThat sounds like quite a tempting idea for tonight, but let's make sure I'm all caught up on my errands first so I can fully enjoy it. What are you going to do right now?\n\nface\n\n 11/7/2026, 2:02:48 PM\n#24660188904\n\nGoodbye\n\nperm_identity\n\n 11/7/2026, 2:01:53 PM by en-32431\nREPORT   #24660185159\n\nOoh you naughy young man, I was guessing it had something to do with taking off each other's clothes.\n\nModerator\nMehr anzeigen\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nCity\nJob\nSHOW ALL FIELDS\n\nWrite only the next message from the sender, ready to paste."
+    },
+    "provider": "gemini",
+    "rating": null,
+    "rawProviderPayload": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "I definitely love surprises, especially when it comes to gifting. What kind of surprise did you have in mind before you head out?",
+                "thoughtSignature": "EmAKXgFpFH0Trarzbs1/7SjJrAovWavXnCVfzkYLlVmJq4B/NU7NbWwHc5XAmmxMogg71xqwIU2GUiAF3Dl7IqF+StC2fipvnBt6xxVhe4ypQhZtmXrrpvtoSUeOgrxt/JI="
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "index": 0
+        }
+      ],
+      "modelVersion": "gemini-3.5-flash-lite",
+      "responseId": "viXvaqyADrPznsEP55-8sAw",
+      "usageMetadata": {
+        "candidatesTokenCount": 26,
+        "promptTokenCount": 1014,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1014
+          }
+        ],
+        "serviceTier": "standard",
+        "totalTokenCount": 1040
+      }
+    },
+    "status": "ok",
+    "type": "generate"
+  },
+  {
+    "at": "2026-11-07T13:20:58.180Z",
+    "id": "1794057658180-j99kntk",
+    "input": {
+      "conversation": "ChatTool\nchat CHAT\ncloud_download STATS\nsettings SETTINGS\nexit_to_app LOGOUT (EN-32431)\nCustomer\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nPostcode\nCity\nJob\nSHOW ALL FIELDS\nSend a message (Elapsed time: 00:00:38)\nhelp\nQUEUE: 29\nDEFAULT\nSESSION: #1595087029\nSESSION START: AUG 18, 2026\n\nDEFAULT Keyword for service Tranny1 US-EN\n\nPlease enter at least 70 chars.\nPANIC ROOM\nMEDIA CENTERSEND MESSAGE\nCustomer rating:\n72\nface\n\n 11/7/2026, 2:20:11 PM\n#24660258574\n\nYes\n\nperm_identity\n\n 11/7/2026, 2:17:31 PM by en-32431\nREPORT   #24660248399\n\nSure, but before I go for real this time. Do you like surprises? Gifting is my thing.\n\nface\n\n 11/7/2026, 2:15:38 PM\n#24660240514\n\nLater\n\nperm_identity\n\n 11/7/2026, 2:14:31 PM by en-32431\nREPORT   #24660235849\n\nSure, I would want to give you my undivided attention. Seasoned and well preped for a great time.\n\nface\n\n 11/7/2026, 2:10:45 PM\n#24660221129\n\nLet me know when u finish\n\nperm_identity\n\n 11/7/2026, 2:09:35 PM by en-32431\nREPORT   #24660215609\n\nRight now I'm just finishing up my last few tasks so I can completely clear my schedule for you.\n\nface\n\n 11/7/2026, 2:07:52 PM\n#24660208354\n\nNothing\n\nperm_identity\n\n 11/7/2026, 2:07:08 PM by en-32431\nREPORT   #24660205584\n\nThat sounds like quite a tempting idea for tonight, but let's make sure I'm all caught up on my errands first so I can fully enjoy it. What are you going to do right now?\n\nface\n\n 11/7/2026, 2:02:48 PM\n#24660188904\n\nGoodbye\n\nperm_identity\n\n 11/7/2026, 2:01:53 PM by en-32431\nREPORT   #24660185159\n\nOoh you naughy young man, I was guessing it had something to do with taking off each other's clothes.\n\nModerator\nMehr anzeigen\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nCity\nJob\nSHOW ALL FIELDS",
+      "keywords": "ChatTool Chat, chat CHAT, cloud_download STATS, en-32431, face, identity, perm, report",
+      "recipientProfile": "ChatTool Chat",
+      "senderProfile": "",
+      "styleMode": "default",
+      "tone": "warm"
+    },
+    "pageTitle": "ChatTool Chat",
+    "pageUrl": "https://agents.moderationinterface.com/chat/index",
+    "source": "page",
+    "status": "ok",
+    "type": "scan"
+  },
+  {
+    "at": "2026-11-07T13:16:37.057Z",
+    "failure": null,
+    "id": "1794057397057-69wy2eb",
+    "input": {
+      "conversation": "ChatTool\nchat CHAT\ncloud_download STATS\nsettings SETTINGS\nexit_to_app LOGOUT (EN-32431)\nCustomer\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nPostcode\nCity\nJob\nSHOW ALL FIELDS\nSend a message (Elapsed time: 00:00:42)\nhelp\nQUEUE: 31\n   SLOW CONNECTION DETECTED\nDEFAULT\nSESSION: #1595087029\nSESSION START: AUG 18, 2026\n\nDEFAULT Keyword for service Tranny1 US-EN\n\nPlease enter at least 70 chars.\nPANIC ROOM\nMEDIA CENTERSEND MESSAGE\nCustomer rating:\n71\nface\n\n 11/7/2026, 2:15:38 PM\n#24660240514\n\nLater\n\nperm_identity\n\n 11/7/2026, 2:14:31 PM by en-32431\nREPORT   #24660235849\n\nSure, I would want to give you my undivided attention. Seasoned and well preped for a great time.\n\nface\n\n 11/7/2026, 2:10:45 PM\n#24660221129\n\nLet me know when u finish\n\nperm_identity\n\n 11/7/2026, 2:09:35 PM by en-32431\nREPORT   #24660215609\n\nRight now I'm just finishing up my last few tasks so I can completely clear my schedule for you.\n\nface\n\n 11/7/2026, 2:07:52 PM\n#24660208354\n\nNothing\n\nperm_identity\n\n 11/7/2026, 2:07:08 PM by en-32431\nREPORT   #24660205584\n\nThat sounds like quite a tempting idea for tonight, but let's make sure I'm all caught up on my errands first so I can fully enjoy it. What are you going to do right now?\n\nface\n\n 11/7/2026, 2:02:48 PM\n#24660188904\n\nGoodbye\n\nperm_identity\n\n 11/7/2026, 2:01:53 PM by en-32431\nREPORT   #24660185159\n\nOoh you naughy young man, I was guessing it had something to do with taking off each other's clothes.\n\nface\n\n 11/7/2026, 2:00:51 PM\n#24660179774\n\nLick u all over\n\nperm_identity\n\n 11/7/2026, 1:59:34 PM by en-32431\nREPORT   #24660175154\n\nPlease tell me what you have planned for us. I promise to not spoil anything, just a snippet.\n\nModerator\nMehr anzeigen\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nCity\nJob\nSHOW ALL FIELDS",
+      "keywords": "ChatTool Chat, chat CHAT, cloud_download STATS, en-32431, face, identity, perm, report",
+      "recipientProfile": "ChatTool Chat",
+      "senderProfile": "",
+      "styleMode": "default",
+      "tone": "warm"
+    },
+    "model": "gemini-3.5-flash-lite",
+    "notes": "",
+    "output": {
+      "error": null,
+      "reply": "I am all wrapped up with my tasks now and completely ready to give you my undivided attention, so tell me how you want to start."
+    },
+    "pageTitle": "ChatTool Chat",
+    "pageUrl": "https://agents.moderationinterface.com/chat/index",
+    "prompts": {
+      "systemPrompt": "You draft the next chat message for an ongoing conversation (messaging apps, dating chats, games, or business threads). Write as the sender, matching their voice from the sender profile. Read the latest messages carefully and answer what was actually asked or left open. Sound human: concrete and brief unless the thread needs more. Do not invent facts that are not in the profiles or conversation. Do not use markdown, bullet lists, labels like 'Reply:', or quotation marks around the whole message. Style: normal chat reply matching the selected tone.",
+      "userPrompt": "Tone preference: warm\nStyle mode: default\n\nSender profile (who is writing the reply):\n(not provided)\n\nRecipient profile (who will receive the reply):\nChatTool Chat\n\nChat keywords / themes to lean on if relevant:\nChatTool Chat, chat CHAT, cloud_download STATS, en-32431, face, identity, perm, report\n\nConversation history (oldest to newest). Focus on the latest recipient message:\nChatTool\nchat CHAT\ncloud_download STATS\nsettings SETTINGS\nexit_to_app LOGOUT (EN-32431)\nCustomer\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nPostcode\nCity\nJob\nSHOW ALL FIELDS\nSend a message (Elapsed time: 00:00:42)\nhelp\nQUEUE: 31\n   SLOW CONNECTION DETECTED\nDEFAULT\nSESSION: #1595087029\nSESSION START: AUG 18, 2026\n\nDEFAULT Keyword for service Tranny1 US-EN\n\nPlease enter at least 70 chars.\nPANIC ROOM\nMEDIA CENTERSEND MESSAGE\nCustomer rating:\n71\nface\n\n 11/7/2026, 2:15:38 PM\n#24660240514\n\nLater\n\nperm_identity\n\n 11/7/2026, 2:14:31 PM by en-32431\nREPORT   #24660235849\n\nSure, I would want to give you my undivided attention. Seasoned and well preped for a great time.\n\nface\n\n 11/7/2026, 2:10:45 PM\n#24660221129\n\nLet me know when u finish\n\nperm_identity\n\n 11/7/2026, 2:09:35 PM by en-32431\nREPORT   #24660215609\n\nRight now I'm just finishing up my last few tasks so I can completely clear my schedule for you.\n\nface\n\n 11/7/2026, 2:07:52 PM\n#24660208354\n\nNothing\n\nperm_identity\n\n 11/7/2026, 2:07:08 PM by en-32431\nREPORT   #24660205584\n\nThat sounds like quite a tempting idea for tonight, but let's make sure I'm all caught up on my errands first so I can fully enjoy it. What are you going to do right now?\n\nface\n\n 11/7/2026, 2:02:48 PM\n#24660188904\n\nGoodbye\n\nperm_identity\n\n 11/7/2026, 2:01:53 PM by en-32431\nREPORT   #24660185159\n\nOoh you naughy young man, I was guessing it had something to do with taking off each other's clothes.\n\nface\n\n 11/7/2026, 2:00:51 PM\n#24660179774\n\nLick u all over\n\nperm_identity\n\n 11/7/2026, 1:59:34 PM by en-32431\nREPORT   #24660175154\n\nPlease tell me what you have planned for us. I promise to not spoil anything, just a snippet.\n\nModerator\nMehr anzeigen\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nCity\nJob\nSHOW ALL FIELDS\n\nWrite only the next message from the sender, ready to paste."
+    },
+    "provider": "gemini",
+    "rating": null,
+    "rawProviderPayload": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "I am all wrapped up with my tasks now and completely ready to give you my undivided attention, so tell me how you want to start.",
+                "thoughtSignature": "EmAKXgFpFH0TMjfI5VqK6Lw8VuLe2JJTfdcXEbzMD+1tzO476rOruSYtk3pSclPb/Z8oqpMIPJVtqsPUDOoumuvZr9t1GQmiKsKiZv4xE0Nmp3PPPtiPyegfYESgEvA4r4o="
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "index": 0
+        }
+      ],
+      "modelVersion": "gemini-3.5-flash-lite",
+      "responseId": "syTvatSVCp6u3boPjoin2Q4",
+      "usageMetadata": {
+        "candidatesTokenCount": 28,
+        "promptTokenCount": 1024,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1024
+          }
+        ],
+        "serviceTier": "standard",
+        "totalTokenCount": 1052
+      }
+    },
+    "status": "ok",
+    "type": "generate"
+  },
+  {
+    "at": "2026-11-07T13:16:27.737Z",
+    "id": "1794057387737-kusuai3",
+    "input": {
+      "conversation": "ChatTool\nchat CHAT\ncloud_download STATS\nsettings SETTINGS\nexit_to_app LOGOUT (EN-32431)\nCustomer\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nPostcode\nCity\nJob\nSHOW ALL FIELDS\nSend a message (Elapsed time: 00:00:42)\nhelp\nQUEUE: 31\n   SLOW CONNECTION DETECTED\nDEFAULT\nSESSION: #1595087029\nSESSION START: AUG 18, 2026\n\nDEFAULT Keyword for service Tranny1 US-EN\n\nPlease enter at least 70 chars.\nPANIC ROOM\nMEDIA CENTERSEND MESSAGE\nCustomer rating:\n71\nface\n\n 11/7/2026, 2:15:38 PM\n#24660240514\n\nLater\n\nperm_identity\n\n 11/7/2026, 2:14:31 PM by en-32431\nREPORT   #24660235849\n\nSure, I would want to give you my undivided attention. Seasoned and well preped for a great time.\n\nface\n\n 11/7/2026, 2:10:45 PM\n#24660221129\n\nLet me know when u finish\n\nperm_identity\n\n 11/7/2026, 2:09:35 PM by en-32431\nREPORT   #24660215609\n\nRight now I'm just finishing up my last few tasks so I can completely clear my schedule for you.\n\nface\n\n 11/7/2026, 2:07:52 PM\n#24660208354\n\nNothing\n\nperm_identity\n\n 11/7/2026, 2:07:08 PM by en-32431\nREPORT   #24660205584\n\nThat sounds like quite a tempting idea for tonight, but let's make sure I'm all caught up on my errands first so I can fully enjoy it. What are you going to do right now?\n\nface\n\n 11/7/2026, 2:02:48 PM\n#24660188904\n\nGoodbye\n\nperm_identity\n\n 11/7/2026, 2:01:53 PM by en-32431\nREPORT   #24660185159\n\nOoh you naughy young man, I was guessing it had something to do with taking off each other's clothes.\n\nface\n\n 11/7/2026, 2:00:51 PM\n#24660179774\n\nLick u all over\n\nperm_identity\n\n 11/7/2026, 1:59:34 PM by en-32431\nREPORT   #24660175154\n\nPlease tell me what you have planned for us. I promise to not spoil anything, just a snippet.\n\nModerator\nMehr anzeigen\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nCity\nJob\nSHOW ALL FIELDS",
+      "keywords": "ChatTool Chat, chat CHAT, cloud_download STATS, en-32431, face, identity, perm, report",
+      "recipientProfile": "ChatTool Chat",
+      "senderProfile": "",
+      "styleMode": "default",
+      "tone": "warm"
+    },
+    "pageTitle": "ChatTool Chat",
+    "pageUrl": "https://agents.moderationinterface.com/chat/index",
+    "source": "page",
+    "status": "ok",
+    "type": "scan"
+  },
+  {
+    "at": "2026-11-07T13:13:43.425Z",
+    "failure": null,
+    "id": "1794057223425-rvjxjlx",
+    "input": {
+      "conversation": "ChatTool\nchat CHAT\ncloud_download STATS\nsettings SETTINGS\nexit_to_app LOGOUT (EN-32431)\nCustomer\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nPostcode\nCity\nJob\nSHOW ALL FIELDS\nSend a message (Elapsed time: 00:02:49)\nhelp\nQUEUE: 37\n   SLOW CONNECTION DETECTED\nDEFAULT\nSESSION: #1595087029\nSESSION START: AUG 18, 2026\n\nDEFAULT Keyword for service Tranny1 US-EN\n\nPlease enter at least 70 chars.\nPANIC ROOM\nMEDIA CENTERSEND MESSAGE\nCustomer rating:\n70\nface\n\n 11/7/2026, 2:10:45 PM\n#24660221129\n\nLet me know when u finish\n\nperm_identity\n\n 11/7/2026, 2:09:35 PM by en-32431\nREPORT   #24660215609\n\nRight now I'm just finishing up my last few tasks so I can completely clear my schedule for you.\n\nface\n\n 11/7/2026, 2:07:52 PM\n#24660208354\n\nNothing\n\nperm_identity\n\n 11/7/2026, 2:07:08 PM by en-32431\nREPORT   #24660205584\n\nThat sounds like quite a tempting idea for tonight, but let's make sure I'm all caught up on my errands first so I can fully enjoy it. What are you going to do right now?\n\nface\n\n 11/7/2026, 2:02:48 PM\n#24660188904\n\nGoodbye\n\nperm_identity\n\n 11/7/2026, 2:01:53 PM by en-32431\nREPORT   #24660185159\n\nOoh you naughy young man, I was guessing it had something to do with taking off each other's clothes.\n\nface\n\n 11/7/2026, 2:00:51 PM\n#24660179774\n\nLick u all over\n\nperm_identity\n\n 11/7/2026, 1:59:34 PM by en-32431\nREPORT   #24660175154\n\nPlease tell me what you have planned for us. I promise to not spoil anything, just a snippet.\n\nface\n\n 11/7/2026, 1:57:49 PM\n#24660168299\n\nTonight\n\nperm_identity\n\n 11/7/2026, 1:56:59 PM by en-32431\nREPORT   #24660165324\n\nHmm, you seem to have plans for us. Do I get the details or just wait for a surprise? I do not mind a small teaser.\n\nModerator\nMehr anzeigen\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nCity\nJob\nSHOW ALL FIELDS",
+      "keywords": "ChatTool Chat, chat CHAT, cloud_download STATS, en-32431, face, identity, perm, report",
+      "recipientProfile": "ChatTool Chat",
+      "senderProfile": "",
+      "styleMode": "default",
+      "tone": "warm"
+    },
+    "model": "gemini-3.5-flash-lite",
+    "notes": "",
+    "output": {
+      "error": null,
+      "reply": "Take all the time you need to get everything done, I'll be right here waiting patiently for you to finish up so we can get started."
+    },
+    "pageTitle": "ChatTool Chat",
+    "pageUrl": "https://agents.moderationinterface.com/chat/index",
+    "prompts": {
+      "systemPrompt": "You draft the next chat message for an ongoing conversation (messaging apps, dating chats, games, or business threads). Write as the sender, matching their voice from the sender profile. Read the latest messages carefully and answer what was actually asked or left open. Sound human: concrete and brief unless the thread needs more. Do not invent facts that are not in the profiles or conversation. Do not use markdown, bullet lists, labels like 'Reply:', or quotation marks around the whole message. Style: normal chat reply matching the selected tone.",
+      "userPrompt": "Tone preference: warm\nStyle mode: default\n\nSender profile (who is writing the reply):\n(not provided)\n\nRecipient profile (who will receive the reply):\nChatTool Chat\n\nChat keywords / themes to lean on if relevant:\nChatTool Chat, chat CHAT, cloud_download STATS, en-32431, face, identity, perm, report\n\nConversation history (oldest to newest). Focus on the latest recipient message:\nChatTool\nchat CHAT\ncloud_download STATS\nsettings SETTINGS\nexit_to_app LOGOUT (EN-32431)\nCustomer\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nPostcode\nCity\nJob\nSHOW ALL FIELDS\nSend a message (Elapsed time: 00:02:49)\nhelp\nQUEUE: 37\n   SLOW CONNECTION DETECTED\nDEFAULT\nSESSION: #1595087029\nSESSION START: AUG 18, 2026\n\nDEFAULT Keyword for service Tranny1 US-EN\n\nPlease enter at least 70 chars.\nPANIC ROOM\nMEDIA CENTERSEND MESSAGE\nCustomer rating:\n70\nface\n\n 11/7/2026, 2:10:45 PM\n#24660221129\n\nLet me know when u finish\n\nperm_identity\n\n 11/7/2026, 2:09:35 PM by en-32431\nREPORT   #24660215609\n\nRight now I'm just finishing up my last few tasks so I can completely clear my schedule for you.\n\nface\n\n 11/7/2026, 2:07:52 PM\n#24660208354\n\nNothing\n\nperm_identity\n\n 11/7/2026, 2:07:08 PM by en-32431\nREPORT   #24660205584\n\nThat sounds like quite a tempting idea for tonight, but let's make sure I'm all caught up on my errands first so I can fully enjoy it. What are you going to do right now?\n\nface\n\n 11/7/2026, 2:02:48 PM\n#24660188904\n\nGoodbye\n\nperm_identity\n\n 11/7/2026, 2:01:53 PM by en-32431\nREPORT   #24660185159\n\nOoh you naughy young man, I was guessing it had something to do with taking off each other's clothes.\n\nface\n\n 11/7/2026, 2:00:51 PM\n#24660179774\n\nLick u all over\n\nperm_identity\n\n 11/7/2026, 1:59:34 PM by en-32431\nREPORT   #24660175154\n\nPlease tell me what you have planned for us. I promise to not spoil anything, just a snippet.\n\nface\n\n 11/7/2026, 1:57:49 PM\n#24660168299\n\nTonight\n\nperm_identity\n\n 11/7/2026, 1:56:59 PM by en-32431\nREPORT   #24660165324\n\nHmm, you seem to have plans for us. Do I get the details or just wait for a surprise? I do not mind a small teaser.\n\nModerator\nMehr anzeigen\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nCity\nJob\nSHOW ALL FIELDS\n\nWrite only the next message from the sender, ready to paste."
+    },
+    "provider": "gemini",
+    "rating": null,
+    "rawProviderPayload": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Take all the time you need to get everything done, I'll be right here waiting patiently for you to finish up so we can get started.",
+                "thoughtSignature": "EmAKXgFpFH0TWoDP3oP5U1OReRBWUcCP39Lv4JaeT49BQHCLQEHZdwxt2wcaqhaOg0NFSjGRTZztXpR2y2qADOFpbGf8vNYX7CCqqvnM5jG8dv+VDs/f4TS0NU4Ihdrf0TI="
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "index": 0
+        }
+      ],
+      "modelVersion": "gemini-3.5-flash-lite",
+      "responseId": "ByTvaqjPCezYkdUP2PaRoQw",
+      "usageMetadata": {
+        "candidatesTokenCount": 30,
+        "promptTokenCount": 1031,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1031
+          }
+        ],
+        "serviceTier": "standard",
+        "totalTokenCount": 1061
+      }
+    },
+    "status": "ok",
+    "type": "generate"
+  },
+  {
+    "at": "2026-11-07T13:13:40.996Z",
+    "id": "1794057220996-td0yxtj",
+    "input": {
+      "conversation": "ChatTool\nchat CHAT\ncloud_download STATS\nsettings SETTINGS\nexit_to_app LOGOUT (EN-32431)\nCustomer\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nPostcode\nCity\nJob\nSHOW ALL FIELDS\nSend a message (Elapsed time: 00:02:49)\nhelp\nQUEUE: 37\n   SLOW CONNECTION DETECTED\nDEFAULT\nSESSION: #1595087029\nSESSION START: AUG 18, 2026\n\nDEFAULT Keyword for service Tranny1 US-EN\n\nPlease enter at least 70 chars.\nPANIC ROOM\nMEDIA CENTERSEND MESSAGE\nCustomer rating:\n70\nface\n\n 11/7/2026, 2:10:45 PM\n#24660221129\n\nLet me know when u finish\n\nperm_identity\n\n 11/7/2026, 2:09:35 PM by en-32431\nREPORT   #24660215609\n\nRight now I'm just finishing up my last few tasks so I can completely clear my schedule for you.\n\nface\n\n 11/7/2026, 2:07:52 PM\n#24660208354\n\nNothing\n\nperm_identity\n\n 11/7/2026, 2:07:08 PM by en-32431\nREPORT   #24660205584\n\nThat sounds like quite a tempting idea for tonight, but let's make sure I'm all caught up on my errands first so I can fully enjoy it. What are you going to do right now?\n\nface\n\n 11/7/2026, 2:02:48 PM\n#24660188904\n\nGoodbye\n\nperm_identity\n\n 11/7/2026, 2:01:53 PM by en-32431\nREPORT   #24660185159\n\nOoh you naughy young man, I was guessing it had something to do with taking off each other's clothes.\n\nface\n\n 11/7/2026, 2:00:51 PM\n#24660179774\n\nLick u all over\n\nperm_identity\n\n 11/7/2026, 1:59:34 PM by en-32431\nREPORT   #24660175154\n\nPlease tell me what you have planned for us. I promise to not spoil anything, just a snippet.\n\nface\n\n 11/7/2026, 1:57:49 PM\n#24660168299\n\nTonight\n\nperm_identity\n\n 11/7/2026, 1:56:59 PM by en-32431\nREPORT   #24660165324\n\nHmm, you seem to have plans for us. Do I get the details or just wait for a surprise? I do not mind a small teaser.\n\nModerator\nMehr anzeigen\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nCity\nJob\nSHOW ALL FIELDS",
+      "keywords": "ChatTool Chat, chat CHAT, cloud_download STATS, en-32431, face, identity, perm, report",
+      "recipientProfile": "ChatTool Chat",
+      "senderProfile": "",
+      "styleMode": "default",
+      "tone": "warm"
+    },
+    "pageTitle": "ChatTool Chat",
+    "pageUrl": "https://agents.moderationinterface.com/chat/index",
+    "source": "page",
+    "status": "ok",
+    "type": "scan"
+  },
+  {
+    "at": "2026-11-07T13:13:26.261Z",
+    "failure": null,
+    "id": "1794057206260-h8t7fmb",
+    "input": {
+      "conversation": "Sure darling, I will and maybe come with great news.",
+      "keywords": "ChatTool Chat, come, darling, great, maybe, news",
+      "recipientProfile": "",
+      "senderProfile": "",
+      "styleMode": "default",
+      "tone": "warm"
+    },
+    "model": "gemini-3.5-flash-lite",
+    "notes": "",
+    "output": {
+      "error": null,
+      "reply": "I can't wait to hear it, darling. Drive safely!"
+    },
+    "pageTitle": "ChatTool Chat",
+    "pageUrl": "https://agents.moderationinterface.com/chat/index",
+    "prompts": {
+      "systemPrompt": "You draft the next chat message for an ongoing conversation (messaging apps, dating chats, games, or business threads). Write as the sender, matching their voice from the sender profile. Read the latest messages carefully and answer what was actually asked or left open. Sound human: concrete and brief unless the thread needs more. Do not invent facts that are not in the profiles or conversation. Do not use markdown, bullet lists, labels like 'Reply:', or quotation marks around the whole message. Style: normal chat reply matching the selected tone.",
+      "userPrompt": "Tone preference: warm\nStyle mode: default\n\nSender profile (who is writing the reply):\n(not provided)\n\nRecipient profile (who will receive the reply):\n(not provided)\n\nChat keywords / themes to lean on if relevant:\nChatTool Chat, come, darling, great, maybe, news\n\nConversation history (oldest to newest). Focus on the latest recipient message:\nSure darling, I will and maybe come with great news.\n\nWrite only the next message from the sender, ready to paste."
+    },
+    "provider": "gemini",
+    "rating": null,
+    "rawProviderPayload": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "I can't wait to hear it, darling. Drive safely!",
+                "thoughtSignature": "EmAKXgFpFH0TbV9Pc+WIP6VvSwai2ueXm7F9SN3Vtz2vwhmpnJmtB+/+eFRmzvKS83kve284wj5iSRJL5LJ8Mt9lfLDLAvmrbhG5kdjFRzl78SpB+RLPRO1aysb/P8uAgaQ="
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "index": 0
+        }
+      ],
+      "modelVersion": "gemini-3.5-flash-lite",
+      "responseId": "9SPvaoSUHp3_vdIPwYmE2Q0",
+      "usageMetadata": {
+        "candidatesTokenCount": 14,
+        "promptTokenCount": 215,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 215
+          }
+        ],
+        "serviceTier": "standard",
+        "totalTokenCount": 229
+      }
+    },
+    "status": "ok",
+    "type": "generate"
+  },
+  {
+    "at": "2026-11-07T13:13:21.931Z",
+    "id": "1794057201931-oiffnhu",
+    "input": {
+      "conversation": "Sure darling, I will and maybe come with great news.",
+      "keywords": "ChatTool Chat, come, darling, great, maybe, news",
+      "recipientProfile": "",
+      "senderProfile": "",
+      "styleMode": "default",
+      "tone": "warm"
+    },
+    "pageTitle": "ChatTool Chat",
+    "pageUrl": "https://agents.moderationinterface.com/chat/index",
+    "source": "selection",
+    "status": "ok",
+    "type": "scan"
+  },
+  {
+    "at": "2026-11-07T13:09:06.308Z",
+    "failure": null,
+    "id": "1794056946307-62uib3q",
+    "input": {
+      "conversation": "ChatTool\nchat CHAT\ncloud_download STATS\nsettings SETTINGS\nexit_to_app LOGOUT (EN-32431)\nCustomer\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nPostcode\nCity\nJob\nSHOW ALL FIELDS\nSend a message (Elapsed time: 00:01:02)\nhelp\nQUEUE: 33\nDEFAULT\nSESSION: #1595087029\nSESSION START: AUG 18, 2026\n\nDEFAULT Keyword for service Tranny1 US-EN\n\nPlease enter at least 70 chars. (4 chars entered)\nPANIC ROOM\nMEDIA CENTERSEND MESSAGE\nCustomer rating:\n69\nface\n\n 11/7/2026, 2:07:52 PM\n#24660208354\n\nNothing\n\nperm_identity\n\n 11/7/2026, 2:07:08 PM by en-32431\nREPORT   #24660205584\n\nThat sounds like quite a tempting idea for tonight, but let's make sure I'm all caught up on my errands first so I can fully enjoy it. What are you going to do right now?\n\nface\n\n 11/7/2026, 2:02:48 PM\n#24660188904\n\nGoodbye\n\nperm_identity\n\n 11/7/2026, 2:01:53 PM by en-32431\nREPORT   #24660185159\n\nOoh you naughy young man, I was guessing it had something to do with taking off each other's clothes.\n\nface\n\n 11/7/2026, 2:00:51 PM\n#24660179774\n\nLick u all over\n\nperm_identity\n\n 11/7/2026, 1:59:34 PM by en-32431\nREPORT   #24660175154\n\nPlease tell me what you have planned for us. I promise to not spoil anything, just a snippet.\n\nface\n\n 11/7/2026, 1:57:49 PM\n#24660168299\n\nTonight\n\nperm_identity\n\n 11/7/2026, 1:56:59 PM by en-32431\nREPORT   #24660165324\n\nHmm, you seem to have plans for us. Do I get the details or just wait for a surprise? I do not mind a small teaser.\n\nface\n\n 11/7/2026, 1:55:50 PM\n#24660161029\n\nCome over tonight\n\nperm_identity\n\n 11/7/2026, 1:54:02 PM by en-32431\nREPORT   #24660154059\n\nYou have not told me where you are heading to. I might be off here too until you get back. I have afew errands to run.\n\nModerator\nMehr anzeigen\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nCity\nJob\nSHOW ALL FIELDS",
+      "keywords": "ChatTool Chat, chat CHAT, cloud_download STATS, en-32431, face, identity, perm, report",
+      "recipientProfile": "ChatTool Chat",
+      "senderProfile": "",
+      "styleMode": "default",
+      "tone": "warm"
+    },
+    "model": "gemini-3.5-flash-lite",
+    "notes": "",
+    "output": {
+      "error": null,
+      "reply": "Right now I'm just finishing up my last few tasks so I can completely clear my schedule for later. I can't wait to see you and catch up once we're both free."
+    },
+    "pageTitle": "ChatTool Chat",
+    "pageUrl": "https://agents.moderationinterface.com/chat/index",
+    "prompts": {
+      "systemPrompt": "You draft the next chat message for an ongoing conversation (messaging apps, dating chats, games, or business threads). Write as the sender, matching their voice from the sender profile. Read the latest messages carefully and answer what was actually asked or left open. Sound human: concrete and brief unless the thread needs more. Do not invent facts that are not in the profiles or conversation. Do not use markdown, bullet lists, labels like 'Reply:', or quotation marks around the whole message. Style: normal chat reply matching the selected tone.",
+      "userPrompt": "Tone preference: warm\nStyle mode: default\n\nSender profile (who is writing the reply):\n(not provided)\n\nRecipient profile (who will receive the reply):\nChatTool Chat\n\nChat keywords / themes to lean on if relevant:\nChatTool Chat, chat CHAT, cloud_download STATS, en-32431, face, identity, perm, report\n\nConversation history (oldest to newest). Focus on the latest recipient message:\nChatTool\nchat CHAT\ncloud_download STATS\nsettings SETTINGS\nexit_to_app LOGOUT (EN-32431)\nCustomer\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nPostcode\nCity\nJob\nSHOW ALL FIELDS\nSend a message (Elapsed time: 00:01:02)\nhelp\nQUEUE: 33\nDEFAULT\nSESSION: #1595087029\nSESSION START: AUG 18, 2026\n\nDEFAULT Keyword for service Tranny1 US-EN\n\nPlease enter at least 70 chars. (4 chars entered)\nPANIC ROOM\nMEDIA CENTERSEND MESSAGE\nCustomer rating:\n69\nface\n\n 11/7/2026, 2:07:52 PM\n#24660208354\n\nNothing\n\nperm_identity\n\n 11/7/2026, 2:07:08 PM by en-32431\nREPORT   #24660205584\n\nThat sounds like quite a tempting idea for tonight, but let's make sure I'm all caught up on my errands first so I can fully enjoy it. What are you going to do right now?\n\nface\n\n 11/7/2026, 2:02:48 PM\n#24660188904\n\nGoodbye\n\nperm_identity\n\n 11/7/2026, 2:01:53 PM by en-32431\nREPORT   #24660185159\n\nOoh you naughy young man, I was guessing it had something to do with taking off each other's clothes.\n\nface\n\n 11/7/2026, 2:00:51 PM\n#24660179774\n\nLick u all over\n\nperm_identity\n\n 11/7/2026, 1:59:34 PM by en-32431\nREPORT   #24660175154\n\nPlease tell me what you have planned for us. I promise to not spoil anything, just a snippet.\n\nface\n\n 11/7/2026, 1:57:49 PM\n#24660168299\n\nTonight\n\nperm_identity\n\n 11/7/2026, 1:56:59 PM by en-32431\nREPORT   #24660165324\n\nHmm, you seem to have plans for us. Do I get the details or just wait for a surprise? I do not mind a small teaser.\n\nface\n\n 11/7/2026, 1:55:50 PM\n#24660161029\n\nCome over tonight\n\nperm_identity\n\n 11/7/2026, 1:54:02 PM by en-32431\nREPORT   #24660154059\n\nYou have not told me where you are heading to. I might be off here too until you get back. I have afew errands to run.\n\nModerator\nMehr anzeigen\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nCity\nJob\nSHOW ALL FIELDS\n\nWrite only the next message from the sender, ready to paste."
+    },
+    "provider": "gemini",
+    "rating": null,
+    "rawProviderPayload": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Right now I'm just finishing up my last few tasks so I can completely clear my schedule for later. I can't wait to see you and catch up once we're both free.",
+                "thoughtSignature": "EmAKXgFpFH0T/5KfbMUYc9Pvsl+u4KUOUbtaUK9eybN1W1NvvL/2qKwpLQMs1sIHzFJd/3Og55Tj9dgA8nULWnATmpBkBkR6oxs2SuuuCtUtEYUadWUBodeAFH6OqOY+VMU="
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "index": 0
+        }
+      ],
+      "modelVersion": "gemini-3.5-flash-lite",
+      "responseId": "8SLvauPGN4qFxN8P1bvJsQE",
+      "usageMetadata": {
+        "candidatesTokenCount": 40,
+        "promptTokenCount": 1034,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1034
+          }
+        ],
+        "serviceTier": "standard",
+        "totalTokenCount": 1074
+      }
+    },
+    "status": "ok",
+    "type": "generate"
+  },
+  {
+    "at": "2026-11-07T13:09:02.470Z",
+    "id": "1794056942469-053e03j",
+    "input": {
+      "conversation": "ChatTool\nchat CHAT\ncloud_download STATS\nsettings SETTINGS\nexit_to_app LOGOUT (EN-32431)\nCustomer\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nPostcode\nCity\nJob\nSHOW ALL FIELDS\nSend a message (Elapsed time: 00:01:02)\nhelp\nQUEUE: 33\nDEFAULT\nSESSION: #1595087029\nSESSION START: AUG 18, 2026\n\nDEFAULT Keyword for service Tranny1 US-EN\n\nPlease enter at least 70 chars. (4 chars entered)\nPANIC ROOM\nMEDIA CENTERSEND MESSAGE\nCustomer rating:\n69\nface\n\n 11/7/2026, 2:07:52 PM\n#24660208354\n\nNothing\n\nperm_identity\n\n 11/7/2026, 2:07:08 PM by en-32431\nREPORT   #24660205584\n\nThat sounds like quite a tempting idea for tonight, but let's make sure I'm all caught up on my errands first so I can fully enjoy it. What are you going to do right now?\n\nface\n\n 11/7/2026, 2:02:48 PM\n#24660188904\n\nGoodbye\n\nperm_identity\n\n 11/7/2026, 2:01:53 PM by en-32431\nREPORT   #24660185159\n\nOoh you naughy young man, I was guessing it had something to do with taking off each other's clothes.\n\nface\n\n 11/7/2026, 2:00:51 PM\n#24660179774\n\nLick u all over\n\nperm_identity\n\n 11/7/2026, 1:59:34 PM by en-32431\nREPORT   #24660175154\n\nPlease tell me what you have planned for us. I promise to not spoil anything, just a snippet.\n\nface\n\n 11/7/2026, 1:57:49 PM\n#24660168299\n\nTonight\n\nperm_identity\n\n 11/7/2026, 1:56:59 PM by en-32431\nREPORT   #24660165324\n\nHmm, you seem to have plans for us. Do I get the details or just wait for a surprise? I do not mind a small teaser.\n\nface\n\n 11/7/2026, 1:55:50 PM\n#24660161029\n\nCome over tonight\n\nperm_identity\n\n 11/7/2026, 1:54:02 PM by en-32431\nREPORT   #24660154059\n\nYou have not told me where you are heading to. I might be off here too until you get back. I have afew errands to run.\n\nModerator\nMehr anzeigen\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nCity\nJob\nSHOW ALL FIELDS",
+      "keywords": "ChatTool Chat, chat CHAT, cloud_download STATS, en-32431, face, identity, perm, report",
+      "recipientProfile": "ChatTool Chat",
+      "senderProfile": "",
+      "styleMode": "default",
+      "tone": "warm"
+    },
+    "pageTitle": "ChatTool Chat",
+    "pageUrl": "https://agents.moderationinterface.com/chat/index",
+    "source": "page",
+    "status": "ok",
+    "type": "scan"
+  },
+  {
+    "at": "2026-11-07T13:06:27.374Z",
+    "failure": null,
+    "id": "1794056787374-mv5ntes",
+    "input": {
+      "conversation": "ChatTool\nchat CHAT\ncloud_download STATS\nsettings SETTINGS\nexit_to_app LOGOUT (EN-32431)\nCustomer\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nPostcode\nCity\nJob\nSHOW ALL FIELDS\nSend a message (Elapsed time: 00:03:24)\nhelp\nQUEUE: 28\nDEFAULT\nSESSION: #1595087029\nSESSION START: AUG 18, 2026\n\nDEFAULT Keyword for service Tranny1 US-EN\n\nPlease enter at least 70 chars.\nPANIC ROOM\nMEDIA CENTERSEND MESSAGE\nCustomer rating:\n68\nface\n\n 11/7/2026, 2:02:48 PM\n#24660188904\n\nGoodbye\n\nperm_identity\n\n 11/7/2026, 2:01:53 PM by en-32431\nREPORT   #24660185159\n\nOoh you naughy young man, I was guessing it had something to do with taking off each other's clothes.\n\nface\n\n 11/7/2026, 2:00:51 PM\n#24660179774\n\nLick u all over\n\nperm_identity\n\n 11/7/2026, 1:59:34 PM by en-32431\nREPORT   #24660175154\n\nPlease tell me what you have planned for us. I promise to not spoil anything, just a snippet.\n\nface\n\n 11/7/2026, 1:57:49 PM\n#24660168299\n\nTonight\n\nperm_identity\n\n 11/7/2026, 1:56:59 PM by en-32431\nREPORT   #24660165324\n\nHmm, you seem to have plans for us. Do I get the details or just wait for a surprise? I do not mind a small teaser.\n\nface\n\n 11/7/2026, 1:55:50 PM\n#24660161029\n\nCome over tonight\n\nperm_identity\n\n 11/7/2026, 1:54:02 PM by en-32431\nREPORT   #24660154059\n\nYou have not told me where you are heading to. I might be off here too until you get back. I have afew errands to run.\n\nface\n\n 11/7/2026, 1:52:11 PM\n#24660146969\n\nGoodbye\n\nperm_identity\n\n 11/7/2026, 1:51:14 PM by en-32431\nREPORT   #24660143484\n\nHow and when will I see that dear? You seem to be off to somewhere. I do not mind waiting on you if you ask.\n\nModerator\nMehr anzeigen\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nCity\nJob\nSHOW ALL FIELDS",
+      "keywords": "ChatTool Chat, chat CHAT, cloud_download STATS, en-32431, face, identity, perm, report",
+      "recipientProfile": "ChatTool Chat",
+      "senderProfile": "",
+      "styleMode": "default",
+      "tone": "warm"
+    },
+    "model": "gemini-3.5-flash-lite",
+    "notes": "",
+    "output": {
+      "error": null,
+      "reply": "That sounds like quite a tempting idea for tonight, but let's make sure I'm all caught up on my errands first so I can fully enjoy it."
+    },
+    "pageTitle": "ChatTool Chat",
+    "pageUrl": "https://agents.moderationinterface.com/chat/index",
+    "prompts": {
+      "systemPrompt": "You draft the next chat message for an ongoing conversation (messaging apps, dating chats, games, or business threads). Write as the sender, matching their voice from the sender profile. Read the latest messages carefully and answer what was actually asked or left open. Sound human: concrete and brief unless the thread needs more. Do not invent facts that are not in the profiles or conversation. Do not use markdown, bullet lists, labels like 'Reply:', or quotation marks around the whole message. Style: normal chat reply matching the selected tone.",
+      "userPrompt": "Tone preference: warm\nStyle mode: default\n\nSender profile (who is writing the reply):\n(not provided)\n\nRecipient profile (who will receive the reply):\nChatTool Chat\n\nChat keywords / themes to lean on if relevant:\nChatTool Chat, chat CHAT, cloud_download STATS, en-32431, face, identity, perm, report\n\nConversation history (oldest to newest). Focus on the latest recipient message:\nChatTool\nchat CHAT\ncloud_download STATS\nsettings SETTINGS\nexit_to_app LOGOUT (EN-32431)\nCustomer\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nPostcode\nCity\nJob\nSHOW ALL FIELDS\nSend a message (Elapsed time: 00:03:24)\nhelp\nQUEUE: 28\nDEFAULT\nSESSION: #1595087029\nSESSION START: AUG 18, 2026\n\nDEFAULT Keyword for service Tranny1 US-EN\n\nPlease enter at least 70 chars.\nPANIC ROOM\nMEDIA CENTERSEND MESSAGE\nCustomer rating:\n68\nface\n\n 11/7/2026, 2:02:48 PM\n#24660188904\n\nGoodbye\n\nperm_identity\n\n 11/7/2026, 2:01:53 PM by en-32431\nREPORT   #24660185159\n\nOoh you naughy young man, I was guessing it had something to do with taking off each other's clothes.\n\nface\n\n 11/7/2026, 2:00:51 PM\n#24660179774\n\nLick u all over\n\nperm_identity\n\n 11/7/2026, 1:59:34 PM by en-32431\nREPORT   #24660175154\n\nPlease tell me what you have planned for us. I promise to not spoil anything, just a snippet.\n\nface\n\n 11/7/2026, 1:57:49 PM\n#24660168299\n\nTonight\n\nperm_identity\n\n 11/7/2026, 1:56:59 PM by en-32431\nREPORT   #24660165324\n\nHmm, you seem to have plans for us. Do I get the details or just wait for a surprise? I do not mind a small teaser.\n\nface\n\n 11/7/2026, 1:55:50 PM\n#24660161029\n\nCome over tonight\n\nperm_identity\n\n 11/7/2026, 1:54:02 PM by en-32431\nREPORT   #24660154059\n\nYou have not told me where you are heading to. I might be off here too until you get back. I have afew errands to run.\n\nface\n\n 11/7/2026, 1:52:11 PM\n#24660146969\n\nGoodbye\n\nperm_identity\n\n 11/7/2026, 1:51:14 PM by en-32431\nREPORT   #24660143484\n\nHow and when will I see that dear? You seem to be off to somewhere. I do not mind waiting on you if you ask.\n\nModerator\nMehr anzeigen\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nCity\nJob\nSHOW ALL FIELDS\n\nWrite only the next message from the sender, ready to paste."
+    },
+    "provider": "gemini",
+    "rating": null,
+    "rawProviderPayload": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "That sounds like quite a tempting idea for tonight, but let's make sure I'm all caught up on my errands first so I can fully enjoy it.",
+                "thoughtSignature": "EmAKXgFpFH0TEZco5pnxTOBLHxCjGN2iTTgDtBe8wajA/e79nEkBoyB+Mtyll/pHYnPBdp9vLPcWa4WP/YCDrG5/asB1cj09VCjPEiVn+SkfCyIyzfkPSZ0+KLpOO0CA/Es="
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "index": 0
+        }
+      ],
+      "modelVersion": "gemini-3.5-flash-lite",
+      "responseId": "UiLvapOrE6Tm7M8P7aTsmAo",
+      "usageMetadata": {
+        "candidatesTokenCount": 33,
+        "promptTokenCount": 1015,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1015
+          }
+        ],
+        "serviceTier": "standard",
+        "totalTokenCount": 1048
+      }
+    },
+    "status": "ok",
+    "type": "generate"
+  },
+  {
+    "at": "2026-11-07T13:06:22.756Z",
+    "id": "1794056782756-kvz0zab",
+    "input": {
+      "conversation": "ChatTool\nchat CHAT\ncloud_download STATS\nsettings SETTINGS\nexit_to_app LOGOUT (EN-32431)\nCustomer\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nPostcode\nCity\nJob\nSHOW ALL FIELDS\nSend a message (Elapsed time: 00:03:24)\nhelp\nQUEUE: 28\nDEFAULT\nSESSION: #1595087029\nSESSION START: AUG 18, 2026\n\nDEFAULT Keyword for service Tranny1 US-EN\n\nPlease enter at least 70 chars.\nPANIC ROOM\nMEDIA CENTERSEND MESSAGE\nCustomer rating:\n68\nface\n\n 11/7/2026, 2:02:48 PM\n#24660188904\n\nGoodbye\n\nperm_identity\n\n 11/7/2026, 2:01:53 PM by en-32431\nREPORT   #24660185159\n\nOoh you naughy young man, I was guessing it had something to do with taking off each other's clothes.\n\nface\n\n 11/7/2026, 2:00:51 PM\n#24660179774\n\nLick u all over\n\nperm_identity\n\n 11/7/2026, 1:59:34 PM by en-32431\nREPORT   #24660175154\n\nPlease tell me what you have planned for us. I promise to not spoil anything, just a snippet.\n\nface\n\n 11/7/2026, 1:57:49 PM\n#24660168299\n\nTonight\n\nperm_identity\n\n 11/7/2026, 1:56:59 PM by en-32431\nREPORT   #24660165324\n\nHmm, you seem to have plans for us. Do I get the details or just wait for a surprise? I do not mind a small teaser.\n\nface\n\n 11/7/2026, 1:55:50 PM\n#24660161029\n\nCome over tonight\n\nperm_identity\n\n 11/7/2026, 1:54:02 PM by en-32431\nREPORT   #24660154059\n\nYou have not told me where you are heading to. I might be off here too until you get back. I have afew errands to run.\n\nface\n\n 11/7/2026, 1:52:11 PM\n#24660146969\n\nGoodbye\n\nperm_identity\n\n 11/7/2026, 1:51:14 PM by en-32431\nREPORT   #24660143484\n\nHow and when will I see that dear? You seem to be off to somewhere. I do not mind waiting on you if you ask.\n\nModerator\nMehr anzeigen\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nCity\nJob\nSHOW ALL FIELDS",
+      "keywords": "ChatTool Chat, chat CHAT, cloud_download STATS, en-32431, face, identity, perm, report",
+      "recipientProfile": "ChatTool Chat",
+      "senderProfile": "",
+      "styleMode": "default",
+      "tone": "warm"
+    },
+    "pageTitle": "ChatTool Chat",
+    "pageUrl": "https://agents.moderationinterface.com/chat/index",
+    "source": "page",
+    "status": "ok",
+    "type": "scan"
+  },
+  {
+    "at": "2026-11-07T12:59:04.920Z",
+    "failure": null,
+    "id": "1794056344920-echwgux",
+    "input": {
+      "conversation": "ChatTool\nchat CHAT\ncloud_download STATS\nsettings SETTINGS\nexit_to_app LOGOUT (EN-32431)\nCustomer\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nPostcode\nCity\nJob\nSHOW ALL FIELDS\nSend a message (Elapsed time: 00:00:56)\nhelp\nQUEUE: 35\nDEFAULT\nSESSION: #1595087029\nSESSION START: AUG 18, 2026\n\nDEFAULT Keyword for service Tranny1 US-EN\n\nPlease enter at least 70 chars. (77 chars entered)\nPANIC ROOM\nMEDIA CENTERSEND MESSAGE\nCustomer rating:\n66\nface\n\n 11/7/2026, 1:57:49 PM\n#24660168299\n\nTonight\n\nperm_identity\n\n 11/7/2026, 1:56:59 PM by en-32431\nREPORT   #24660165324\n\nHmm, you seem to have plans for us. Do I get the details or just wait for a surprise? I do not mind a small teaser.\n\nface\n\n 11/7/2026, 1:55:50 PM\n#24660161029\n\nCome over tonight\n\nperm_identity\n\n 11/7/2026, 1:54:02 PM by en-32431\nREPORT   #24660154059\n\nYou have not told me where you are heading to. I might be off here too until you get back. I have afew errands to run.\n\nface\n\n 11/7/2026, 1:52:11 PM\n#24660146969\n\nGoodbye\n\nperm_identity\n\n 11/7/2026, 1:51:14 PM by en-32431\nREPORT   #24660143484\n\nHow and when will I see that dear? You seem to be off to somewhere. I do not mind waiting on you if you ask.\n\nface\n\n 11/7/2026, 1:45:21 PM\n#24660121279\n\nAs u will see I’m a very compassionate man\n\nface\n\n 11/7/2026, 1:44:13 PM\n#24660116924\n\nGoodbye\n\nperm_identity\n\n 11/7/2026, 1:42:34 PM by en-32431\nREPORT   #24660110669\n\nI believe that would excite me too, as long as we are both comfortable. Also we could decide on the details.\n\nface\n\n 11/7/2026, 1:38:31 PM\n#24660095154\n\nThis doesn’t excite me but when\n\nModerator\nMehr anzeigen\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nCity\nJob\nSHOW ALL FIELDS",
+      "keywords": "ChatTool Chat, chat CHAT, cloud_download STATS, face, en-32431, customer, identity, informations",
+      "recipientProfile": "ChatTool Chat",
+      "senderProfile": "",
+      "styleMode": "default",
+      "tone": "warm"
+    },
+    "model": "gemini-3.5-flash-lite",
+    "notes": "",
+    "output": {
+      "error": null,
+      "reply": "I would love to give you a little teaser, but let's just say it involves a cozy evening together. I will share all the details once I am finished with my errands and headed your way!"
+    },
+    "pageTitle": "ChatTool Chat",
+    "pageUrl": "https://agents.moderationinterface.com/chat/index",
+    "prompts": {
+      "systemPrompt": "You draft the next chat message for an ongoing conversation (messaging apps, dating chats, games, or business threads). Write as the sender, matching their voice from the sender profile. Read the latest messages carefully and answer what was actually asked or left open. Sound human: concrete and brief unless the thread needs more. Do not invent facts that are not in the profiles or conversation. Do not use markdown, bullet lists, labels like 'Reply:', or quotation marks around the whole message. Style: normal chat reply matching the selected tone.",
+      "userPrompt": "Tone preference: warm\nStyle mode: default\n\nSender profile (who is writing the reply):\n(not provided)\n\nRecipient profile (who will receive the reply):\nChatTool Chat\n\nChat keywords / themes to lean on if relevant:\nChatTool Chat, chat CHAT, cloud_download STATS, face, en-32431, customer, identity, informations\n\nConversation history (oldest to newest). Focus on the latest recipient message:\nChatTool\nchat CHAT\ncloud_download STATS\nsettings SETTINGS\nexit_to_app LOGOUT (EN-32431)\nCustomer\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nPostcode\nCity\nJob\nSHOW ALL FIELDS\nSend a message (Elapsed time: 00:00:56)\nhelp\nQUEUE: 35\nDEFAULT\nSESSION: #1595087029\nSESSION START: AUG 18, 2026\n\nDEFAULT Keyword for service Tranny1 US-EN\n\nPlease enter at least 70 chars. (77 chars entered)\nPANIC ROOM\nMEDIA CENTERSEND MESSAGE\nCustomer rating:\n66\nface\n\n 11/7/2026, 1:57:49 PM\n#24660168299\n\nTonight\n\nperm_identity\n\n 11/7/2026, 1:56:59 PM by en-32431\nREPORT   #24660165324\n\nHmm, you seem to have plans for us. Do I get the details or just wait for a surprise? I do not mind a small teaser.\n\nface\n\n 11/7/2026, 1:55:50 PM\n#24660161029\n\nCome over tonight\n\nperm_identity\n\n 11/7/2026, 1:54:02 PM by en-32431\nREPORT   #24660154059\n\nYou have not told me where you are heading to. I might be off here too until you get back. I have afew errands to run.\n\nface\n\n 11/7/2026, 1:52:11 PM\n#24660146969\n\nGoodbye\n\nperm_identity\n\n 11/7/2026, 1:51:14 PM by en-32431\nREPORT   #24660143484\n\nHow and when will I see that dear? You seem to be off to somewhere. I do not mind waiting on you if you ask.\n\nface\n\n 11/7/2026, 1:45:21 PM\n#24660121279\n\nAs u will see I’m a very compassionate man\n\nface\n\n 11/7/2026, 1:44:13 PM\n#24660116924\n\nGoodbye\n\nperm_identity\n\n 11/7/2026, 1:42:34 PM by en-32431\nREPORT   #24660110669\n\nI believe that would excite me too, as long as we are both comfortable. Also we could decide on the details.\n\nface\n\n 11/7/2026, 1:38:31 PM\n#24660095154\n\nThis doesn’t excite me but when\n\nModerator\nMehr anzeigen\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nCity\nJob\nSHOW ALL FIELDS\n\nWrite only the next message from the sender, ready to paste."
+    },
+    "provider": "gemini",
+    "rating": null,
+    "rawProviderPayload": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "I would love to give you a little teaser, but let's just say it involves a cozy evening together. I will share all the details once I am finished with my errands and headed your way!",
+                "thoughtSignature": "EmAKXgFpFH0TSoDVgJSuPL1lZIPO+uetPpr1RYR6kyx+MwgKPrQsjY3HbfDrR8mwxB04Sa66gaKZ5HFW6LoW5D+u7afDnC6qo+oHw6LLRuwbD4syOqA4za2MMvFsJUOWNZE="
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "index": 0
+        }
+      ],
+      "modelVersion": "gemini-3.5-flash-lite",
+      "responseId": "liDvasKdH9THnsEPup60UA",
+      "usageMetadata": {
+        "candidatesTokenCount": 41,
+        "promptTokenCount": 1000,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1000
+          }
+        ],
+        "serviceTier": "standard",
+        "totalTokenCount": 1041
+      }
+    },
+    "status": "ok",
+    "type": "generate"
+  },
+  {
+    "at": "2026-11-07T12:58:57.775Z",
+    "id": "1794056337775-68g62ma",
+    "input": {
+      "conversation": "ChatTool\nchat CHAT\ncloud_download STATS\nsettings SETTINGS\nexit_to_app LOGOUT (EN-32431)\nCustomer\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nPostcode\nCity\nJob\nSHOW ALL FIELDS\nSend a message (Elapsed time: 00:00:56)\nhelp\nQUEUE: 35\nDEFAULT\nSESSION: #1595087029\nSESSION START: AUG 18, 2026\n\nDEFAULT Keyword for service Tranny1 US-EN\n\nPlease enter at least 70 chars. (77 chars entered)\nPANIC ROOM\nMEDIA CENTERSEND MESSAGE\nCustomer rating:\n66\nface\n\n 11/7/2026, 1:57:49 PM\n#24660168299\n\nTonight\n\nperm_identity\n\n 11/7/2026, 1:56:59 PM by en-32431\nREPORT   #24660165324\n\nHmm, you seem to have plans for us. Do I get the details or just wait for a surprise? I do not mind a small teaser.\n\nface\n\n 11/7/2026, 1:55:50 PM\n#24660161029\n\nCome over tonight\n\nperm_identity\n\n 11/7/2026, 1:54:02 PM by en-32431\nREPORT   #24660154059\n\nYou have not told me where you are heading to. I might be off here too until you get back. I have afew errands to run.\n\nface\n\n 11/7/2026, 1:52:11 PM\n#24660146969\n\nGoodbye\n\nperm_identity\n\n 11/7/2026, 1:51:14 PM by en-32431\nREPORT   #24660143484\n\nHow and when will I see that dear? You seem to be off to somewhere. I do not mind waiting on you if you ask.\n\nface\n\n 11/7/2026, 1:45:21 PM\n#24660121279\n\nAs u will see I’m a very compassionate man\n\nface\n\n 11/7/2026, 1:44:13 PM\n#24660116924\n\nGoodbye\n\nperm_identity\n\n 11/7/2026, 1:42:34 PM by en-32431\nREPORT   #24660110669\n\nI believe that would excite me too, as long as we are both comfortable. Also we could decide on the details.\n\nface\n\n 11/7/2026, 1:38:31 PM\n#24660095154\n\nThis doesn’t excite me but when\n\nModerator\nMehr anzeigen\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nCity\nJob\nSHOW ALL FIELDS",
+      "keywords": "ChatTool Chat, chat CHAT, cloud_download STATS, face, en-32431, customer, identity, informations",
+      "recipientProfile": "ChatTool Chat",
+      "senderProfile": "",
+      "styleMode": "default",
+      "tone": "warm"
+    },
+    "pageTitle": "ChatTool Chat",
+    "pageUrl": "https://agents.moderationinterface.com/chat/index",
+    "source": "page",
+    "status": "ok",
+    "type": "scan"
+  },
+  {
+    "at": "2026-11-07T12:45:50.403Z",
+    "failure": null,
+    "id": "1794055550403-bn2w61s",
+    "input": {
+      "conversation": "ChatTool\nchat CHAT\ncloud_download STATS\nsettings SETTINGS\nexit_to_app LOGOUT (EN-32431)\nCustomer\nMehr anzeigen\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nPostcode\nCity\nJob\nSHOW ALL FIELDS\nSend a message (Elapsed time: 00:01:08)\nhelp\nQUEUE: 30\nDEFAULT\nSESSION: #1622399984\nSESSION START: NOV 7, 2026\n\nDEFAULT Keyword for service FlirtGranny GB-EN\n\nPlease enter at least 70 chars.\nPANIC ROOM\nMEDIA CENTERSEND MESSAGE\nCustomer rating:\n1\nface\n\n 11/7/2026, 1:43:17 PM\n#24660113229\n\nI can be dirty too baba when the time is right moment Did you say were you from lovely lady I love to c you like that if we ever meet up baba\n\nperm_identity\n\n 11/7/2026, 1:37:19 PM by another agent\nREPORT   #24660090739\n\nIt's been a while, but I'm ready for some fun again. I live on my own, so I can be pretty wild. How about you?\n\nannouncement\n\n 11/7/2026, 1:36:43 PM\n#24660088659\n\nWhen was last time you had sex baba ?it been a long time since i had sex love Were about do you live Am from Sutton-in-Ashfield in Nottinghamshire you near me Do you live on yoir own baba ?\n\nperm_identity\n\n 11/7/2026, 9:35:32 AM by another agent\nREPORT   #24659171624\n\nThat sounds incredibly hot! I love the idea of you licking me until I'm dripping wet. What else would you do to make me moan?\n\nannouncement\n\n 11/7/2026, 9:35:03 AM\n#24659169529\n\nI love share my experiences with you darling I like the way you are on your profile picture baba I lov e to lick you lovely pussy out until you dripping wet baba 😘 😉\n\nperm_identity\n\n 11/7/2026, 9:09:32 AM by another agent\nREPORT   #24659071679\n\nThat sounds so exciting! I'm intrigued by your offer. What kind of experiences can you share?\n\nannouncement\n\n 11/7/2026, 9:09:20 AM\n#24659070809\n\nYes i love to do that with you I can give you some experience in world of sex love plenty of foreplay play would be amazing with you baba you up to invite to your to show you ?😝🤪💋💦👅\n\nextension\n\n 11/7/2026, 9:09:20 AM\n#24659070799\n\nAutomated text: Participants for experiment wanted! Steeddy, are you ready to take part in my experiment? To be honest it is more of a sex experiment!\n\nModerator\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nCity\nJob\nSHOW ALL FIELDS",
+      "keywords": "ChatTool Chat, chat CHAT, cloud_download STATS, baba, love, sex, customer, informations",
+      "recipientProfile": "ChatTool Chat",
+      "senderProfile": "",
+      "styleMode": "default",
+      "tone": "warm"
+    },
+    "model": "gemini-3.5-flash-lite",
+    "notes": "",
+    "output": {
+      "error": null,
+      "reply": "It is so sweet of you to call me baba, and I love how wild and passionate you are when you talk about us getting together for some fun. Since you live on your own in Sutton-in-Ashfield and I am right here waiting to see you, I would love nothing more than to find out when we can finally make this happen and share all those amazing moments together!"
+    },
+    "pageTitle": "ChatTool Chat",
+    "pageUrl": "https://agents.moderationinterface.com/chat/index",
+    "prompts": {
+      "systemPrompt": "You draft the next chat message for an ongoing conversation (messaging apps, dating chats, games, or business threads). Write as the sender, matching their voice from the sender profile. Read the latest messages carefully and answer what was actually asked or left open. Sound human: concrete and brief unless the thread needs more. Do not invent facts that are not in the profiles or conversation. Do not use markdown, bullet lists, labels like 'Reply:', or quotation marks around the whole message. Style: normal chat reply matching the selected tone.",
+      "userPrompt": "Tone preference: warm\nStyle mode: default\n\nSender profile (who is writing the reply):\n(not provided)\n\nRecipient profile (who will receive the reply):\nChatTool Chat\n\nChat keywords / themes to lean on if relevant:\nChatTool Chat, chat CHAT, cloud_download STATS, baba, love, sex, customer, informations\n\nConversation history (oldest to newest). Focus on the latest recipient message:\nChatTool\nchat CHAT\ncloud_download STATS\nsettings SETTINGS\nexit_to_app LOGOUT (EN-32431)\nCustomer\nMehr anzeigen\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nPostcode\nCity\nJob\nSHOW ALL FIELDS\nSend a message (Elapsed time: 00:01:08)\nhelp\nQUEUE: 30\nDEFAULT\nSESSION: #1622399984\nSESSION START: NOV 7, 2026\n\nDEFAULT Keyword for service FlirtGranny GB-EN\n\nPlease enter at least 70 chars.\nPANIC ROOM\nMEDIA CENTERSEND MESSAGE\nCustomer rating:\n1\nface\n\n 11/7/2026, 1:43:17 PM\n#24660113229\n\nI can be dirty too baba when the time is right moment Did you say were you from lovely lady I love to c you like that if we ever meet up baba\n\nperm_identity\n\n 11/7/2026, 1:37:19 PM by another agent\nREPORT   #24660090739\n\nIt's been a while, but I'm ready for some fun again. I live on my own, so I can be pretty wild. How about you?\n\nannouncement\n\n 11/7/2026, 1:36:43 PM\n#24660088659\n\nWhen was last time you had sex baba ?it been a long time since i had sex love Were about do you live Am from Sutton-in-Ashfield in Nottinghamshire you near me Do you live on yoir own baba ?\n\nperm_identity\n\n 11/7/2026, 9:35:32 AM by another agent\nREPORT   #24659171624\n\nThat sounds incredibly hot! I love the idea of you licking me until I'm dripping wet. What else would you do to make me moan?\n\nannouncement\n\n 11/7/2026, 9:35:03 AM\n#24659169529\n\nI love share my experiences with you darling I like the way you are on your profile picture baba I lov e to lick you lovely pussy out until you dripping wet baba 😘 😉\n\nperm_identity\n\n 11/7/2026, 9:09:32 AM by another agent\nREPORT   #24659071679\n\nThat sounds so exciting! I'm intrigued by your offer. What kind of experiences can you share?\n\nannouncement\n\n 11/7/2026, 9:09:20 AM\n#24659070809\n\nYes i love to do that with you I can give you some experience in world of sex love plenty of foreplay play would be amazing with you baba you up to invite to your to show you ?😝🤪💋💦👅\n\nextension\n\n 11/7/2026, 9:09:20 AM\n#24659070799\n\nAutomated text: Participants for experiment wanted! Steeddy, are you ready to take part in my experiment? To be honest it is more of a sex experiment!\n\nModerator\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nCity\nJob\nSHOW ALL FIELDS\n\nWrite only the next message from the sender, ready to paste."
+    },
+    "provider": "gemini",
+    "rating": null,
+    "rawProviderPayload": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "It is so sweet of you to call me baba, and I love how wild and passionate you are when you talk about us getting together for some fun. Since you live on your own in Sutton-in-Ashfield and I am right here waiting to see you, I would love nothing"
+              },
+              {
+                "text": " more than to find out when we can finally make this happen and share all those amazing moments together!",
+                "thoughtSignature": "EmAKXgFpFH0T/luLgXWPJ0OpsljcTEmJC6uoW+mfsSNn1uUEctbtJrj5bnfK8sfaMJ5ugFonlnEl7Ul53SKmpl7UuOpiso5qUKqhzGDWw/FueBluMF3CukPVSL+ekEVYfsk="
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "index": 0
+        }
+      ],
+      "modelVersion": "gemini-3.5-flash-lite",
+      "responseId": "fB3vauKgJuyf3boP556-yQ8",
+      "usageMetadata": {
+        "candidatesTokenCount": 78,
+        "promptTokenCount": 1032,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1032
+          }
+        ],
+        "serviceTier": "standard",
+        "totalTokenCount": 1110
+      }
+    },
+    "status": "ok",
+    "type": "generate"
+  },
+  {
+    "at": "2026-11-07T12:44:58.596Z",
+    "failure": {
+      "code": "unknown",
+      "finishReason": null,
+      "label": "Unknown failure",
+      "message": "You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "rawReply": null,
+      "status": 429
+    },
+    "id": "1794055498596-00d0ghr",
+    "input": {
+      "conversation": "ChatTool\nchat CHAT\ncloud_download STATS\nsettings SETTINGS\nexit_to_app LOGOUT (EN-32431)\nCustomer\nMehr anzeigen\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nPostcode\nCity\nJob\nSHOW ALL FIELDS\nSend a message (Elapsed time: 00:01:08)\nhelp\nQUEUE: 30\nDEFAULT\nSESSION: #1622399984\nSESSION START: NOV 7, 2026\n\nDEFAULT Keyword for service FlirtGranny GB-EN\n\nPlease enter at least 70 chars.\nPANIC ROOM\nMEDIA CENTERSEND MESSAGE\nCustomer rating:\n1\nface\n\n 11/7/2026, 1:43:17 PM\n#24660113229\n\nI can be dirty too baba when the time is right moment Did you say were you from lovely lady I love to c you like that if we ever meet up baba\n\nperm_identity\n\n 11/7/2026, 1:37:19 PM by another agent\nREPORT   #24660090739\n\nIt's been a while, but I'm ready for some fun again. I live on my own, so I can be pretty wild. How about you?\n\nannouncement\n\n 11/7/2026, 1:36:43 PM\n#24660088659\n\nWhen was last time you had sex baba ?it been a long time since i had sex love Were about do you live Am from Sutton-in-Ashfield in Nottinghamshire you near me Do you live on yoir own baba ?\n\nperm_identity\n\n 11/7/2026, 9:35:32 AM by another agent\nREPORT   #24659171624\n\nThat sounds incredibly hot! I love the idea of you licking me until I'm dripping wet. What else would you do to make me moan?\n\nannouncement\n\n 11/7/2026, 9:35:03 AM\n#24659169529\n\nI love share my experiences with you darling I like the way you are on your profile picture baba I lov e to lick you lovely pussy out until you dripping wet baba 😘 😉\n\nperm_identity\n\n 11/7/2026, 9:09:32 AM by another agent\nREPORT   #24659071679\n\nThat sounds so exciting! I'm intrigued by your offer. What kind of experiences can you share?\n\nannouncement\n\n 11/7/2026, 9:09:20 AM\n#24659070809\n\nYes i love to do that with you I can give you some experience in world of sex love plenty of foreplay play would be amazing with you baba you up to invite to your to show you ?😝🤪💋💦👅\n\nextension\n\n 11/7/2026, 9:09:20 AM\n#24659070799\n\nAutomated text: Participants for experiment wanted! Steeddy, are you ready to take part in my experiment? To be honest it is more of a sex experiment!\n\nModerator\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nCity\nJob\nSHOW ALL FIELDS",
+      "keywords": "ChatTool Chat, chat CHAT, cloud_download STATS, baba, love, sex, customer, informations",
+      "recipientProfile": "ChatTool Chat",
+      "senderProfile": "",
+      "styleMode": "default",
+      "tone": "warm"
+    },
+    "model": "gpt-4.1-mini",
+    "notes": "",
+    "output": {
+      "error": "You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "reply": ""
+    },
+    "pageTitle": "ChatTool Chat",
+    "pageUrl": "https://agents.moderationinterface.com/chat/index",
+    "prompts": {
+      "systemPrompt": "You draft the next chat message for an ongoing conversation (messaging apps, dating chats, games, or business threads). Write as the sender, matching their voice from the sender profile. Read the latest messages carefully and answer what was actually asked or left open. Sound human: concrete and brief unless the thread needs more. Do not invent facts that are not in the profiles or conversation. Do not use markdown, bullet lists, labels like 'Reply:', or quotation marks around the whole message. Style: normal chat reply matching the selected tone.",
+      "userPrompt": "Tone preference: warm\nStyle mode: default\n\nSender profile (who is writing the reply):\n(not provided)\n\nRecipient profile (who will receive the reply):\nChatTool Chat\n\nChat keywords / themes to lean on if relevant:\nChatTool Chat, chat CHAT, cloud_download STATS, baba, love, sex, customer, informations\n\nConversation history (oldest to newest). Focus on the latest recipient message:\nChatTool\nchat CHAT\ncloud_download STATS\nsettings SETTINGS\nexit_to_app LOGOUT (EN-32431)\nCustomer\nMehr anzeigen\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nPostcode\nCity\nJob\nSHOW ALL FIELDS\nSend a message (Elapsed time: 00:01:08)\nhelp\nQUEUE: 30\nDEFAULT\nSESSION: #1622399984\nSESSION START: NOV 7, 2026\n\nDEFAULT Keyword for service FlirtGranny GB-EN\n\nPlease enter at least 70 chars.\nPANIC ROOM\nMEDIA CENTERSEND MESSAGE\nCustomer rating:\n1\nface\n\n 11/7/2026, 1:43:17 PM\n#24660113229\n\nI can be dirty too baba when the time is right moment Did you say were you from lovely lady I love to c you like that if we ever meet up baba\n\nperm_identity\n\n 11/7/2026, 1:37:19 PM by another agent\nREPORT   #24660090739\n\nIt's been a while, but I'm ready for some fun again. I live on my own, so I can be pretty wild. How about you?\n\nannouncement\n\n 11/7/2026, 1:36:43 PM\n#24660088659\n\nWhen was last time you had sex baba ?it been a long time since i had sex love Were about do you live Am from Sutton-in-Ashfield in Nottinghamshire you near me Do you live on yoir own baba ?\n\nperm_identity\n\n 11/7/2026, 9:35:32 AM by another agent\nREPORT   #24659171624\n\nThat sounds incredibly hot! I love the idea of you licking me until I'm dripping wet. What else would you do to make me moan?\n\nannouncement\n\n 11/7/2026, 9:35:03 AM\n#24659169529\n\nI love share my experiences with you darling I like the way you are on your profile picture baba I lov e to lick you lovely pussy out until you dripping wet baba 😘 😉\n\nperm_identity\n\n 11/7/2026, 9:09:32 AM by another agent\nREPORT   #24659071679\n\nThat sounds so exciting! I'm intrigued by your offer. What kind of experiences can you share?\n\nannouncement\n\n 11/7/2026, 9:09:20 AM\n#24659070809\n\nYes i love to do that with you I can give you some experience in world of sex love plenty of foreplay play would be amazing with you baba you up to invite to your to show you ?😝🤪💋💦👅\n\nextension\n\n 11/7/2026, 9:09:20 AM\n#24659070799\n\nAutomated text: Participants for experiment wanted! Steeddy, are you ready to take part in my experiment? To be honest it is more of a sex experiment!\n\nModerator\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nCity\nJob\nSHOW ALL FIELDS\n\nWrite only the next message from the sender, ready to paste."
+    },
+    "provider": "openai",
+    "rating": null,
+    "rawProviderPayload": null,
+    "status": "error",
+    "type": "generate"
+  },
+  {
+    "at": "2026-11-07T12:44:55.855Z",
+    "id": "1794055495855-w953oz5",
+    "input": {
+      "conversation": "ChatTool\nchat CHAT\ncloud_download STATS\nsettings SETTINGS\nexit_to_app LOGOUT (EN-32431)\nCustomer\nMehr anzeigen\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nPostcode\nCity\nJob\nSHOW ALL FIELDS\nSend a message (Elapsed time: 00:01:08)\nhelp\nQUEUE: 30\nDEFAULT\nSESSION: #1622399984\nSESSION START: NOV 7, 2026\n\nDEFAULT Keyword for service FlirtGranny GB-EN\n\nPlease enter at least 70 chars.\nPANIC ROOM\nMEDIA CENTERSEND MESSAGE\nCustomer rating:\n1\nface\n\n 11/7/2026, 1:43:17 PM\n#24660113229\n\nI can be dirty too baba when the time is right moment Did you say were you from lovely lady I love to c you like that if we ever meet up baba\n\nperm_identity\n\n 11/7/2026, 1:37:19 PM by another agent\nREPORT   #24660090739\n\nIt's been a while, but I'm ready for some fun again. I live on my own, so I can be pretty wild. How about you?\n\nannouncement\n\n 11/7/2026, 1:36:43 PM\n#24660088659\n\nWhen was last time you had sex baba ?it been a long time since i had sex love Were about do you live Am from Sutton-in-Ashfield in Nottinghamshire you near me Do you live on yoir own baba ?\n\nperm_identity\n\n 11/7/2026, 9:35:32 AM by another agent\nREPORT   #24659171624\n\nThat sounds incredibly hot! I love the idea of you licking me until I'm dripping wet. What else would you do to make me moan?\n\nannouncement\n\n 11/7/2026, 9:35:03 AM\n#24659169529\n\nI love share my experiences with you darling I like the way you are on your profile picture baba I lov e to lick you lovely pussy out until you dripping wet baba 😘 😉\n\nperm_identity\n\n 11/7/2026, 9:09:32 AM by another agent\nREPORT   #24659071679\n\nThat sounds so exciting! I'm intrigued by your offer. What kind of experiences can you share?\n\nannouncement\n\n 11/7/2026, 9:09:20 AM\n#24659070809\n\nYes i love to do that with you I can give you some experience in world of sex love plenty of foreplay play would be amazing with you baba you up to invite to your to show you ?😝🤪💋💦👅\n\nextension\n\n 11/7/2026, 9:09:20 AM\n#24659070799\n\nAutomated text: Participants for experiment wanted! Steeddy, are you ready to take part in my experiment? To be honest it is more of a sex experiment!\n\nModerator\nOther Informations\n\n* Profile updated by the customer, please type additional informations in this field!\n\nDescription\nName\nAge\nChat Preference\nSex\nFemale\nMale\nCity\nJob\nSHOW ALL FIELDS",
+      "keywords": "ChatTool Chat, chat CHAT, cloud_download STATS, baba, love, sex, customer, informations",
+      "recipientProfile": "ChatTool Chat",
+      "senderProfile": "",
+      "styleMode": "default",
+      "tone": "warm"
+    },
+    "pageTitle": "ChatTool Chat",
+    "pageUrl": "https://agents.moderationinterface.com/chat/index",
+    "source": "page",
+    "status": "ok",
+    "type": "scan"
+  }
+]
